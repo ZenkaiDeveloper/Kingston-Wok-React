@@ -8,10 +8,10 @@ class SideMenu extends Component{
   render(){
     return(
       <ul className={this.state.listStyles}>
-        <li className="list-item"><a href="#">Home</a></li>
-        <li className="list-item"><a href="reservations.html">Reservations</a></li>
-        <li className="list-item"><a href="#">Menu</a></li>
-        <li className="list-item"><a href="#">About Us</a></li>
+        <li className="list-item">Home</li>
+        <li className="list-item">Reservations</li>
+        <li className="list-item">Menu</li>
+        <li className="list-item">About Us</li>
       </ul>
     )
   }

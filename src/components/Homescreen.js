@@ -11,16 +11,16 @@ class Homescreen extends Component{
     return(
       <div className="homescreen">
         <Header/>
+        <div className="header-spacer"></div>
         <div className="location-info">
-          <p>1353 Ulster Ave. Kingston, NY 12401</p>
-          <p>845-336-6979</p>
+          <p><i className="fas fa-map"></i> 1353 Ulster Ave. Kingston, NY 12401</p>
+          <p><i className="fas fa-phone"></i> 845-336-6979</p>
         </div>
         <SideMenu />
         <div className="showcase">
-          <img className="show-img" src={chineseNoodle} />
+          <img alt="chinese noodles" className="show-img" src={chineseNoodle} />
         </div>
         <HomePageInfo />
-
       </div>
     )
   }

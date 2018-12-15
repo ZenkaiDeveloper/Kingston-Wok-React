@@ -6,7 +6,7 @@
 }
 
 .empty-info{
-  height: 5rem;
+  height: 4rem;
   width: 80%;
   margin: 0 auto;
   margin-top:-1rem;
@@ -15,6 +15,11 @@
   padding:1rem;
   text-align: center;
   background-color:#ffdb70;
+}
+
+.empty-info h1{
+  font-family: 'Lobster', cursive;
+  font-size: 1.5rem;
 }
 
 .entrance-photo, .about-photo{
@@ -39,6 +44,7 @@
   background-color:#ffdb70;
 }
 
+
 .reservation-btn{
   background-color:#ff9400;
   border: none;
@@ -47,10 +53,60 @@
 }
 
 .about-info{
+  text-align: center;
   width: 80%;
   margin: 0 auto;
   background-color: #ffdb70;
   border-radius:5px;
   margin-top:-1rem;
   padding:1rem;
+  z-index: 1;
+}
+
+.homepage-menu{
+  margin-top: -.75rem;
+  position: relative;
+  z-index: 0;
+  padding-bottom: 3rem;
+}
+.homepage-menu h2{
+  background-color: #ffdb70;
+  color: #991900;
+  opacity:.9;
+  width:40%;
+  margin: 4rem auto;
+  text-align: center;
+  padding:.5rem;
+  border-radius: 3px;
+}
+
+.specialties-info-wrapper{
+  background-color: transparent;
+  opacity:.9;
+  text-align: center;
+  color:black;
+  width:80%;
+  margin: 0 auto;
+}
+
+.rice-bowl{
+  max-width: 100%;
+  display: none;
+}
+
+.one, .two, .three, .four{
+  background-color:#a8a8a8;
+  border-radius: 5px;
+  padding:1rem;
+}
+
+.three, .two, .four{
+  margin-top:3rem;
+}
+
+.menu-btn{
+  background-color:#FFD700;
+  border:none;
+  padding:.5rem;
+  border-radius:3px;
 }

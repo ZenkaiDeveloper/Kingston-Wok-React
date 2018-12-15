@@ -2,6 +2,10 @@
   background-color:#eee;
 }
 
+.header-spacer{
+  height:7vh;
+}
+
 .location-info{
   text-align: center;
   background-color: #ffdb70;
