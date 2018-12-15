@@ -1,0 +1,56 @@
+.info-wrapper{
+  display: grid;
+  grid-template-columns: 1fr;
+  background: #991900;
+  color:#3C3142;
+}
+
+.empty-info{
+  height: 5rem;
+  width: 80%;
+  margin: 0 auto;
+  margin-top:-1rem;
+  border-radius:5px 5px 0 0;
+  z-index: 2;
+  padding:1rem;
+  text-align: center;
+  background-color:#ffdb70;
+}
+
+.entrance-photo, .about-photo{
+  width:100vw;
+}
+
+.entrance-photo img, .about-photo img{
+  width:100%;
+  height: 100%;
+  border-radius:5px;
+  position: relative;
+  z-index: 2;
+}
+
+.reservation-info{
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+  margin-top:-1rem;
+  padding:2rem 1rem;
+  text-align: center;
+  background-color:#ffdb70;
+}
+
+.reservation-btn{
+  background-color:#ff9400;
+  border: none;
+  padding:.5rem;
+  border-radius:3px;
+}
+
+.about-info{
+  width: 80%;
+  margin: 0 auto;
+  background-color: #ffdb70;
+  border-radius:5px;
+  margin-top:-1rem;
+  padding:1rem;
+}
