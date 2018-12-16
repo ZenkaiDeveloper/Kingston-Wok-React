@@ -47,8 +47,105 @@ header{
   background:#eee;
   display:block;
   height:.25rem;
+  width:1.8rem;
   margin-bottom:.35rem;
   position:relative;
   top:0;
   transition: all ease-in-out 0.5s;
+}
+
+/* #burger div:nth-child(3){
+  animation-duration: 1s;
+  animation-name: rotateFirst;
+  animation-direction: reverse;
+} */
+
+.animate-burger{
+  animation-duration:1s;
+  animation-name: circleBurger;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+}
+
+.animate-burger-div-one{
+  animation-duration:1s;
+  animation-name: rotateFirst;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+}
+
+.animate-burger-div-two{
+  animation-duration:1s;
+  animation-name: makeCircle;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+}
+
+.animate-burger-div-three{
+  animation-duration:1s;
+  animation-name: rotateThird;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+}
+
+@keyframes circleBurger {
+  25%{
+    position: relative;
+    bottom: .1rem;
+  }
+  50% {
+    position: relative;
+    bottom: .4rem;
+  }
+
+  75%{
+    position: relative;
+    bottom: .7rem;
+  }
+
+  100%{
+    position: relative;
+    bottom: .7rem;
+  }
+}
+
+
+@keyframes rotateFirst {
+  from{
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(45deg);
+    position: relative;
+    top:1.2rem;
+  }
+}
+
+@keyframes makeCircle {
+  25%{
+    position: relative;
+    top:.2rem;
+    opacity:.75;
+  }
+  50%{
+    opacity: .50;
+    position: relative;
+    top:1rem;
+  }
+  100%{
+    opacity:0;
+    position: relative;
+    top:2rem;
+  }
+}
+
+@keyframes rotateThird {
+  from{
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-45deg);
+    position: relative;
+    bottom: 1.2rem;
+  }
 }

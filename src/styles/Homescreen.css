@@ -25,10 +25,10 @@
   max-width:100%;
   margin: 0 auto;
   display: block;
-  object-fit:fill;
+  object-fit:cover;
 }
 
 .showcase{
-  height:50vh;
+  height:55vh;
   position:relative;
 }
