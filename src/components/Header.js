@@ -12,11 +12,17 @@ class Header extends React.Component{
     this.setState({
       burgerClicked: !this.state.burgerClicked
     }, ()=>{
-      setTimeout(()=>{
+      if (this.state.showMenu) {
         this.setState({
-          showMenu:!this.state.showMenu
+          showMenu: false
         })
-      }, 1000)
+      }else{
+        setTimeout(()=>{
+          this.setState({
+            showMenu:!this.state.showMenu
+          })
+        }, 600)
+      }
     })
   }
 

@@ -1,12 +1,37 @@
 .nav-list{
   color: #eee;
-  margin: 20% auto;
   text-align: center;
+  list-style-type: none;
+  font-size: 2rem;
+  height:100vh;
+  position: relative;
+  background-color: black;
+  opacity: .85;
+  margin-top:-8vh;
+  position: relative;
+  padding-top:50%;
+  animation-name: slideDown;
+  animation-duration: .8s;
 }
 
-.nav-list a{
+.list-item{
+  display: block;
+  width:75vw;
+  margin-bottom: 2rem;
   text-decoration: none;
   font-family: 'Lobster', cursive;
   color: inherit;
   font-size: 3rem;
+}
+
+@keyframes slideDown {
+  from{
+    margin-top:100%;
+    width:300%;
+  }
+
+  to {
+    margin-top:-8vh;
+    width:100%;
+  }
 }

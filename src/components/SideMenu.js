@@ -2,14 +2,12 @@ import React, { Component } from 'react';
 import '../styles/SideMenu.css'
 
 class SideMenu extends Component{
-  state={
-    listStyles: "nav-list"
-  }
+
 
   render(){
     return(
       <div>
-        <ul className={this.state.listStyles}>
+        <ul className="nav-list">
           <li className="list-item">Home</li>
           <li className="list-item">Reservations</li>
           <li className="list-item">Menu</li>
