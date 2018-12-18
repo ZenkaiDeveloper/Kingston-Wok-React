@@ -32,3 +32,9 @@
   height:55vh;
   position:relative;
 }
+
+@media (max-height: 450px), screen and (orientation: landscape){
+  .header-spacer{
+    height:12vh;
+  }
+}

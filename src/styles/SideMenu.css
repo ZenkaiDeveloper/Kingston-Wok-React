@@ -10,7 +10,7 @@
   margin-top:-8vh;
   position: relative;
   padding-top:50%;
-  animation-name: slideDown;
+  animation-name: slideUp;
   animation-duration: .8s;
 }
 
@@ -24,7 +24,7 @@
   font-size: 3rem;
 }
 
-@keyframes slideDown {
+@keyframes slideUp {
   from{
     margin-top:100%;
     width:300%;
@@ -33,5 +33,37 @@
   to {
     margin-top:-8vh;
     width:100%;
+  }
+}
+
+@keyframes slideUpSmallHeight {
+  from{
+    margin-top:100%;
+    width:300%;
+  }
+
+  to {
+    margin-top:-8rem;
+    width:100%;
+  }
+}
+
+@media (max-height: 450px), screen and (orientation: landscape){
+  .nav-list{
+    margin-top:-8rem;
+    animation-name: slideUpSmallHeight;
+    animation-duration: .8s;
+    padding-top:30%;
+
+  }
+
+  .list-item{
+    display: block;
+    width:90vw;
+    margin-bottom:1rem;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    color: inherit;
+    font-size: 2rem;
   }
 }
