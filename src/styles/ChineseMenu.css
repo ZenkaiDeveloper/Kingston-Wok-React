@@ -1,7 +1,12 @@
+.chinese-menu{
+  min-height:100vh;
+  background-color:#d4d4d4;
+}
+
 .category-select{
   margin-top:.5rem;
   width:100%;
-  height:2rem;
   border:1px solid gray;
   font-size: 1.2rem;
+  position: fixed;
 }

@@ -1,0 +1,41 @@
+.soups{
+  width: 100%;
+  text-align: center;
+  margin-top:3rem;
+}
+
+.soups h2{
+  color:#991900;
+}
+
+/* .table-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+} */
+
+table{
+  width:100%;
+}
+
+.item-area{
+  width:60%;
+}
+
+.table-headers{
+  color:#ed2700;
+  font-size: .7rem;
+}
+
+.table-pint{
+  grid-column: 2/3;
+}
+
+.table-quart{
+  grid-column: 3/4;
+}
+
+.item-name{
+  text-align: left;
+  padding-left: 1rem;
+  padding-top:.5rem;
+}
