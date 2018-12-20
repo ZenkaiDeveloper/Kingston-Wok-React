@@ -1,7 +1,12 @@
 import React from 'react';
 import Header from './Header';
 import '../styles/ChineseMenu.css';
-import Soups from './Categories/Soups'
+import Soups from './Categories/Chinese/Soups'
+import Appetizers from './Categories/Chinese/Appetizers'
+import LoAndChow from './Categories/Chinese/LoAndChow'
+import FriedRice from './Categories/Chinese/FriedRice'
+import ChowAndMeiFun from './Categories/Chinese/ChowAndMeiFun'
+import EggFooYoung from './Categories/Chinese/EggFooYoung'
 
 
 class ChineseMenu extends React.Component{
@@ -15,7 +20,7 @@ class ChineseMenu extends React.Component{
     })
   }
 
-  listFoodItem = (name, ptPrice, qtPrice) => {
+  listFoodItem = (name, ptPrice, qtPrice = " ") => {
     return(
       <tr className="item-row">
         <td className="item-name">{name}</td>
@@ -46,6 +51,11 @@ class ChineseMenu extends React.Component{
           <option value="Chefs Special">Chefs Special</option>
         </select>
         <Soups listSoup={this.listFoodItem}/>
+        <Appetizers listApp={this.listFoodItem}/>
+        <LoAndChow listNoodle={this.listFoodItem} />
+        <FriedRice listRice={this.listFoodItem} />
+        <ChowAndMeiFun listNoodle={this.listFoodItem} />
+        <EggFooYoung listItem={this.listFoodItem} />
       </div>
     )
   }

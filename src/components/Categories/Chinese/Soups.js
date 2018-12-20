@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/Categories.css'
+import '../../../styles/Categories.css'
 
 class Soups extends React.Component{
   basicPint = 2.75;
@@ -9,13 +9,13 @@ class Soups extends React.Component{
   render(){
     return(
       <div className="soups" >
-        <h2>Soup</h2>
+        <h2>Soups</h2>
         <table>
           <thead>
             <tr>
               <th className="item-area"></th>
-              <th className="table-headers table-pint">Pint(16oz)</th>
-              <th className="table-headers table-quart">Quart(32oz)</th>
+              <th className="table-headers table-pint">Pt(16oz)</th>
+              <th className="table-headers table-quart">Qt(32oz)</th>
             </tr>
           </thead>
           <tbody>
@@ -27,14 +27,6 @@ class Soups extends React.Component{
             {this.props.listSoup("Young Chow Wonton Soup (For 2)", "N/A", 7.95)}
             {this.props.listSoup("Seafood Hot & Sour Soup (For 2)", "N/A", 8.95)}
           </tbody>
-          {/*
-          BIG BOWLOF CHINATOWN NOODLE SOUP
-          2. Dumpling Lover (Choice of Chicken,
-          3. Shredded Chicken or Beef With
-          Roast Pork & Wontonns
-          9.25
-          Shitake Mushroom
-          9.25*/}
         </table>
         <h2 style={{marginTop:"2rem"}}>Big Bowl of Chinatown Noodle Soup</h2>
         <table>
