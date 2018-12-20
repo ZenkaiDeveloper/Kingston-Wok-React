@@ -38,3 +38,10 @@
     height:12vh;
   }
 }
+
+@media screen and (min-width:450px){
+  .show-img{
+    width:100%;
+    min-height: 100%;
+  }
+}

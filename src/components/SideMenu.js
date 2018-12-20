@@ -11,7 +11,6 @@ class SideMenu extends Component{
           <li className="list-item">Home</li>
           <li className="list-item">Reservations</li>
           <li className="list-item">Menu</li>
-          <li className="list-item">About Us</li>
         </ul>
       </div>
     )
