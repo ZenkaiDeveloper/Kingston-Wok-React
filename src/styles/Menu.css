@@ -1,0 +1,32 @@
+.menu{
+  color:#f4f4f4;
+}
+
+.menu-categories {
+  list-style-type: none;
+  margin-top:10vh;
+}
+
+.menu-hook{
+  width:60%;
+  margin: 3rem auto;
+  background-color:#632d06;
+  opacity:.8;
+  color: #f4f4f4;
+  border-radius: 5px;
+  padding:1rem;
+}
+
+.menu-categories p{
+  width:40%;
+  margin:2rem auto;
+  background-color:#991900;
+  padding:1rem;
+  color:#fdab00;
+  border-radius: 3px;
+}
+
+.menu-categories p a{
+  text-decoration: none;
+  color:#fdab00;
+}

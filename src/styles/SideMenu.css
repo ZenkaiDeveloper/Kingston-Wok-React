@@ -24,6 +24,11 @@
   font-size: 3rem;
 }
 
+.list-item a{
+  text-decoration: none;
+  color:#eee;
+}
+
 @keyframes slideUp {
   from{
     margin-top:100%;
