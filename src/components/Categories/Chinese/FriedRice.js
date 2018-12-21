@@ -6,7 +6,7 @@ class FriedRice extends React.Component{
   baseQuart = 7.50;
   render(){
     return(
-      <div className="FriedRice" >
+      <div className=" category-introduction FriedRice" >
         <h2 style={{marginTop:"2rem"}}>Fried Rice</h2>
         <table>
           <thead>
@@ -17,12 +17,12 @@ class FriedRice extends React.Component{
             </tr>
           </thead>
           <tbody>
-            {this.props.listRice("Chicken", this.basePint, this.baseQuart)}
-            {this.props.listRice("Pork", this.basePint, this.baseQuart)}
-            {this.props.listRice("Vegetable", this.basePint, this.baseQuart)}
-            {this.props.listRice("Beef", this.basePint+.25, this.baseQuart+.25)}
-            {this.props.listRice("Shrimp", this.basePint+.70, this.baseQuart+.45)}
-            {this.props.listRice("Mixed", this.basePint+.75, this.baseQuart+.75)}
+            {this.props.listRice("Chicken", this.basePint.toPrecision(3), this.baseQuart.toPrecision(3))}
+            {this.props.listRice("Pork", this.basePint.toPrecision(3), this.baseQuart.toPrecision(3))}
+            {this.props.listRice("Vegetable", this.basePint.toPrecision(3), this.baseQuart.toPrecision(3))}
+            {this.props.listRice("Beef", (this.basePint+.25).toPrecision(3), (this.baseQuart+.25).toPrecision(3))}
+            {this.props.listRice("Shrimp", (this.basePint+.70).toPrecision(3), (this.baseQuart+.45).toPrecision(3))}
+            {this.props.listRice("Mixed", (this.basePint+.75).toPrecision(3), (this.baseQuart+.75).toPrecision(3))}
 
           </tbody>
         </table>

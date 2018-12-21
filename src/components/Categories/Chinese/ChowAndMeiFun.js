@@ -5,7 +5,7 @@ class ChowAndMeiFun extends React.Component{
   base = 9.95;
   render(){
     return(
-      <div className="ChowAndMeiFun" >
+      <div className="category-introduction ChowAndMeiFun" >
         <h2 style={{marginTop:"2rem"}}>Chow Fun or Mei Fun</h2>
         <table>
           <thead>
@@ -16,11 +16,11 @@ class ChowAndMeiFun extends React.Component{
             </tr>
           </thead>
           <tbody>
-            {this.props.listNoodle("Chicken"," ",  this.base)}
-            {this.props.listNoodle("Roast Pork"," ",  this.base)}
-            {this.props.listNoodle("Beef"," ", this.base+.30)}
-            {this.props.listNoodle("Shrimp"," ", this.base+1)}
-            {this.props.listNoodle("Mixed"," ", this.base+1)}
+            {this.props.listNoodle("Chicken"," ",  this.base.toPrecision(3))}
+            {this.props.listNoodle("Roast Pork"," ",  this.base.toPrecision(3))}
+            {this.props.listNoodle("Beef"," ", (this.base+.30).toPrecision(4))}
+            {this.props.listNoodle("Shrimp"," ", (this.base+1).toPrecision(4))}
+            {this.props.listNoodle("Mixed"," ", (this.base+1).toPrecision(4))}
 
           </tbody>
         </table>

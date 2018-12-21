@@ -5,7 +5,7 @@ class EggFooYoung extends React.Component{
   base = 9.75;
   render(){
     return(
-      <div className="EggFooYoung" >
+      <div className=" category-introduction EggFooYoung" >
         <h2 style={{marginTop:"2rem"}}>Egg Foo Young</h2>
         <table>
           <thead>
@@ -18,9 +18,9 @@ class EggFooYoung extends React.Component{
           <tbody>
             {this.props.listItem("Chicken"," ",  this.base)}
             {this.props.listItem("Roast Pork"," ",  this.base)}
-            {this.props.listItem("Vegetable"," ",  this.base-.25)}
-            {this.props.listItem("Shrimp"," ", this.base+.75)}
-            {this.props.listItem("Mixed"," ", this.base+1.20)}
+            {this.props.listItem("Vegetable"," ",  (this.base-.25).toPrecision(3))}
+            {this.props.listItem("Shrimp"," ", (this.base+.75).toPrecision(4))}
+            {this.props.listItem("Mixed"," ", (this.base+1.20).toPrecision(4))}
 
           </tbody>
         </table>

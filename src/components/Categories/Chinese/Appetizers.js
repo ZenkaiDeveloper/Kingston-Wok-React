@@ -4,7 +4,7 @@ import '../../../styles/Categories.css'
 class Appetizers extends React.Component{
   render(){
     return(
-      <div className="Appetizers" >
+      <div className=" category-introduction Appetizers" >
         <h2 style={{marginTop:"2rem"}}>Appetizers</h2>
         <table>
           <thead>

@@ -8,7 +8,7 @@ class Soups extends React.Component{
   listFoodItem
   render(){
     return(
-      <div className="soups" >
+      <div className=" category-introduction soups" >
         <h2>Soups</h2>
         <table>
           <thead>

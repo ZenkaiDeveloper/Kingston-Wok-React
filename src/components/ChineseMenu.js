@@ -1,13 +1,16 @@
 import React from 'react';
 import Header from './Header';
 import '../styles/ChineseMenu.css';
+import { Redirect } from 'react-router-dom'
 import Soups from './Categories/Chinese/Soups'
 import Appetizers from './Categories/Chinese/Appetizers'
 import LoAndChow from './Categories/Chinese/LoAndChow'
 import FriedRice from './Categories/Chinese/FriedRice'
 import ChowAndMeiFun from './Categories/Chinese/ChowAndMeiFun'
 import EggFooYoung from './Categories/Chinese/EggFooYoung'
-
+import Poultry from './Categories/Chinese/Poultry'
+import Beef from "./Categories/Chinese/Beef"
+import Pork from "./Categories/Chinese/Pork"
 
 class ChineseMenu extends React.Component{
   state={
@@ -18,9 +21,19 @@ class ChineseMenu extends React.Component{
     this.setState({
       category: e.target.value
     })
+    this.props.history.push("/menu/chinese/#EggFooYoung")
   }
 
-  listFoodItem = (name, ptPrice, qtPrice = " ") => {
+  listFoodItem = (name, ptPrice, qtPrice = " ", spice = false) => {
+    if (spice) {
+      return(
+        <tr className="item-row">
+          <td className="item-name spicy"><i className="fas spicy fa-fire"></i> {name}</td>
+          <td className="spicy">{ptPrice}</td>
+          <td className="spicy">{qtPrice}</td>
+        </tr>
+      )
+    }
     return(
       <tr className="item-row">
         <td className="item-name">{name}</td>
@@ -55,7 +68,12 @@ class ChineseMenu extends React.Component{
         <LoAndChow listNoodle={this.listFoodItem} />
         <FriedRice listRice={this.listFoodItem} />
         <ChowAndMeiFun listNoodle={this.listFoodItem} />
+        <div id="EggFooYoung">
         <EggFooYoung listItem={this.listFoodItem} />
+        </div>
+        <Poultry  listItem={this.listFoodItem} />
+        <Beef listItem={this.listFoodItem} />
+        <Pork listItem={this.listFoodItem} />
       </div>
     )
   }
