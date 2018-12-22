@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from './Header';
 import '../styles/ChineseMenu.css';
-import { Redirect } from 'react-router-dom'
 import Soups from './Categories/Chinese/Soups'
 import Appetizers from './Categories/Chinese/Appetizers'
 import LoAndChow from './Categories/Chinese/LoAndChow'
@@ -11,8 +10,25 @@ import EggFooYoung from './Categories/Chinese/EggFooYoung'
 import Poultry from './Categories/Chinese/Poultry'
 import Beef from "./Categories/Chinese/Beef"
 import Pork from "./Categories/Chinese/Pork"
+import Seafood from "./Categories/Chinese/Seafood"
+import Vegetables from "./Categories/Chinese/Vegetables"
 
 class ChineseMenu extends React.Component{
+  constructor(props) {
+    super(props);
+    this.Soups = React.createRef();
+    this.Appetizers = React.createRef();
+    this.LoAndChow = React.createRef();
+    this.FriedRice = React.createRef();
+    this.ChowAndMeiFun = React.createRef();
+    this.EggFooYoung = React.createRef();
+    this.Poultry = React.createRef();
+    this.Beef = React.createRef();
+    this.Pork = React.createRef();
+    this.Seafood = React.createRef();
+    this.Vegetables = React.createRef();
+  }
+
   state={
     category: ""
   }
@@ -20,8 +36,12 @@ class ChineseMenu extends React.Component{
   changeHandler = (e) => {
     this.setState({
       category: e.target.value
+    }, ()=>{
+      window.scrollTo({
+        top:this[this.state.category].current.offsetTop - 100,
+        behavior:'smooth'
+      })
     })
-    this.props.history.push("/menu/chinese/#EggFooYoung")
   }
 
   listFoodItem = (name, ptPrice, qtPrice = " ", spice = false) => {
@@ -50,30 +70,53 @@ class ChineseMenu extends React.Component{
         <Header />
         <div className="header-spacer"></div>
         <select className="category-select" onChange={this.changeHandler} value={this.state.category}>
-          <option value="Soup">Soups</option>
+          <option value=""> </option>
+          <option value="Soups">Soups</option>
           <option value="Appetizers">Appetizers</option>
-          <option value="Lo Mein Chow Mein">Lo Mein/Chow Mein</option>
-          <option value="Fried Rice">Fried Rice</option>
-          <option value="Chow Fun/Mei Fun">Chow Fun/Mei Fun</option>
-          <option value="Egg Foo Young">Egg Foo Young</option>
+          <option value="LoAndChow">Lo Mein/Chow Mein</option>
+          <option value="FriedRice">Fried Rice</option>
+          <option value="ChowAndMeiFun">Chow Fun/Mei Fun</option>
+          <option value="EggFooYoung">Egg Foo Young</option>
           <option value="Poultry">Poultry</option>
           <option value="Beef">Beef</option>
           <option value="Pork">Pork</option>
           <option value="Seafood">Seafood</option>
-          <option value="Vegetable">Vegetable Dishes</option>
+          <option value="Vegetables">Vegetable Dishes</option>
           <option value="Chefs Special">Chefs Special</option>
         </select>
-        <Soups listSoup={this.listFoodItem}/>
-        <Appetizers listApp={this.listFoodItem}/>
-        <LoAndChow listNoodle={this.listFoodItem} />
-        <FriedRice listRice={this.listFoodItem} />
-        <ChowAndMeiFun listNoodle={this.listFoodItem} />
-        <div id="EggFooYoung">
-        <EggFooYoung listItem={this.listFoodItem} />
+        <div ref={this.Soups}>
+          <Soups listSoup={this.listFoodItem}/>
         </div>
-        <Poultry  listItem={this.listFoodItem} />
-        <Beef listItem={this.listFoodItem} />
-        <Pork listItem={this.listFoodItem} />
+        <div ref={this.Appetizers}>
+          <Appetizers listApp={this.listFoodItem}/>
+        </div>
+        <div ref={this.LoAndChow}>
+          <LoAndChow listNoodle={this.listFoodItem} />
+        </div>
+        <div ref={this.FriedRice}>
+          <FriedRice listRice={this.listFoodItem} />
+        </div>
+        <div ref={this.ChowAndMeiFun}>
+          <ChowAndMeiFun listNoodle={this.listFoodItem} />
+        </div>
+        <div ref={this.EggFooYoung} id="EggFooYoung">
+          <EggFooYoung listItem={this.listFoodItem} />
+        </div>
+        <div ref={this.Poultry}>
+          <Poultry  listItem={this.listFoodItem} />
+        </div>
+        <div ref={this.Beef}>
+          <Beef listItem={this.listFoodItem} />
+        </div>
+        <div ref={this.Pork}>
+          <Pork listItem={this.listFoodItem} />
+        </div>
+        <div ref={this.Seafood}>
+          <Seafood listItem={this.listFoodItem} />
+        </div>
+        <div ref={this.Vegetables}>
+          <Vegetables listItem={this.listFoodItem} />
+        </div>
       </div>
     )
   }
