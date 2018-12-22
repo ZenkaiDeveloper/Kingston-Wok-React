@@ -85,7 +85,7 @@ class ChineseMenu extends React.Component{
           <option value="Pork">Pork</option>
           <option value="Seafood">Seafood</option>
           <option value="Vegetables">Vegetable Dishes</option>
-          <option value="Chefs Special">Chefs Special</option>
+          <option value="Chef">Chefs Special</option>
         </select>
         <div ref={this.Soups}>
           <Soups listSoup={this.listFoodItem}/>

@@ -67,6 +67,34 @@ class ChefSpecials extends React.Component{
           </tbody>
         </table>
         <h2 style={{marginTop:"2rem"}}>Revolution Diet</h2>
+        <p className="revolution-description">Cooked without oil & cornstarch. All dishes have been adapeted by our diet counselors. Their recommendations call for no oil at emphasis on vegetable Al Dente. Use of bean sprouts to replace rice and greater contrast in cooking style and seasoning.</p>
+        <table>
+          <thead>
+            <tr>
+              <th className="item-area"></th>
+              <th className="table-headers table-pint"> </th>
+              <th style={{textAlign:"center"}} className="table-headers table-quart">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            {this.props.listItem("R1. Lemon Flavored Chicken with Broccoli & Bean Sprouts"," ",11.50.toPrecision(4))}
+            {this.props.listItem("R2. Prawn w. Snow Peas, Broccoli & Bean Sprouts in Spicy Szechuan Style"," ",12.50.toPrecision(4), true)}
+            {this.props.listItem("R3. Chicken with Waterchestnuts, Broccoli and Spicy Orange Flavor"," ",11.50.toPrecision(4))}
+            {this.props.listItem("R4. Prawns with Broccoli, Mushroom and Moo Shu Seasonings"," ",12.50.toPrecision(4))}
+            {this.props.listItem("R5. Buddha Plus Seasame Tofu"," ",10.95)}
+            <tr>
+              <td id="rev-diet" className="chef-description" colspan="3"><small>Snow peas, green beans, baby corn, mushrooms, bean sprouts, broccoli, tofu & sesame.</small></td>
+            </tr>
+            {this.props.listItem("R6. Scallop with Broccoli and Bean Sprouts in Hot Garlic Sauce"," ",15.95, true)}
+
+
+            {this.props.listItem("R7. Protien Trio"," ",15.95, true)}
+            <tr>
+              <td id="rev-diet" className="chef-description" colspan="3"><small>Scallop, chicken, shrimp, with broccoli, snowpease and bean sprouts in a spicy Hunan Sauce.</small></td>
+            </tr>
+
+          </tbody>
+        </table>
       </div>
     )
   }

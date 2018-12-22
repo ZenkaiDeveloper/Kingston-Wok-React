@@ -47,6 +47,7 @@ table{
   margin-top:5rem;
   border: 3px solid red;
   border-radius: 3px;
+  background-color: #eee;
 }
 
 .Chef h2{
@@ -58,5 +59,13 @@ table{
   font-size:.8rem;
   font-style: italic;
   text-align: left;
+}
 
+#rev-diet{
+  padding:0 .4rem 0rem .6rem;
+}
+
+.revolution-description{
+  font-size: .8rem;
+  font-style: italic;
 }
