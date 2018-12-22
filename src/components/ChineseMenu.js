@@ -12,6 +12,7 @@ import Beef from "./Categories/Chinese/Beef"
 import Pork from "./Categories/Chinese/Pork"
 import Seafood from "./Categories/Chinese/Seafood"
 import Vegetables from "./Categories/Chinese/Vegetables"
+import Chef from "./Categories/Chinese/Chef"
 
 class ChineseMenu extends React.Component{
   constructor(props) {
@@ -27,6 +28,7 @@ class ChineseMenu extends React.Component{
     this.Pork = React.createRef();
     this.Seafood = React.createRef();
     this.Vegetables = React.createRef();
+    this.Chef = React.createRef();
   }
 
   state={
@@ -62,6 +64,7 @@ class ChineseMenu extends React.Component{
       </tr>
     )
   }
+
 
   render(){
     console.log(this.state.category)
@@ -116,6 +119,9 @@ class ChineseMenu extends React.Component{
         </div>
         <div ref={this.Vegetables}>
           <Vegetables listItem={this.listFoodItem} />
+        </div>
+        <div ref={this.Chef}>
+          <Chef listItem={this.listFoodItem} />
         </div>
       </div>
     )

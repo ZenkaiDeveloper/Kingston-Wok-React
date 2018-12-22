@@ -40,3 +40,23 @@ table{
   padding-left: 1rem;
   padding-top:.75rem;
 }
+
+#chefs-special{
+  width:95%;
+  margin: 0 auto;
+  margin-top:5rem;
+  border: 3px solid red;
+  border-radius: 3px;
+}
+
+.Chef h2{
+  font-family: Lobster;
+}
+
+.chef-description{
+  padding:0 .4rem 1.5rem .6rem;
+  font-size:.8rem;
+  font-style: italic;
+  text-align: left;
+
+}
