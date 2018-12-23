@@ -8,19 +8,22 @@
 }
 
 .menu-hook{
-  width:60%;
+  width:95%;
+  font-family:Lobster;
+  background-color: brown;
   margin: 3rem auto;
-  background-color:#632d06;
-  opacity:.8;
+  font-size: 1.25rem;
+  opacity:.9;
   color: #f4f4f4;
-  border-radius: 5px;
   padding:1rem;
 }
 
 .menu-categories p{
-  width:40%;
+  width:70%;
+  text-align: center;
   margin:2rem auto;
   background-color:#991900;
+  font-size: 1.5rem;
   padding:1rem;
   color:#fdab00;
   border-radius: 3px;

@@ -18,8 +18,8 @@ class Menu extends Component{
         </div>
         <div className="menu-categories">
           <p><Link to="/menu/chinese">Chinese Menu</Link></p>
-          <p>Japanese Menu</p>
-          <p>South East Cusine</p>
+          <p><Link to="/menu/japanese">Japanese Menu</Link></p>
+          <p><Link to="/menu/southeast">South East Cusine</Link></p>
           <p>Lunch and Dinner Combos</p>
         </div>
       </div>
