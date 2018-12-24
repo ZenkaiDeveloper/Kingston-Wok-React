@@ -27,14 +27,6 @@ table{
   font-size: .7rem;
 }
 
-.table-pint{
-  grid-column: 2/3;
-}
-
-.table-quart{
-  grid-column: 3/4;
-}
-
 .item-name{
   text-align: left;
   padding-left: 1rem;
@@ -68,4 +60,30 @@ table{
 .revolution-description{
   font-size: .8rem;
   font-style: italic;
+}
+
+.combos h1{
+  font-family: Lobster, cursive;
+  color: #991900;
+  text-align: center;
+}
+
+.combos h3{
+  color: #991900;
+  text-align: center;
+}
+
+.combos p{
+  width:85%;
+  margin: .25rem auto;
+}
+
+.id{
+  padding-top:.75rem;
+  padding-left:.5rem;
+}
+
+.size{
+  padding-top:.75rem;
+  padding-left:1rem;
 }

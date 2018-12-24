@@ -6,6 +6,7 @@ import Menu from './components/Menu.js'
 import ChineseMenu from './components/ChineseMenu.js'
 import JapaneseMenu from './components/JapaneseMenu'
 import SouthEastMenu from './components/SouthEastMenu'
+import LunchAndDinnerCombos from './components/LunchAndDinnerCombos'
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
         <Route exact path="/menu/chinese" component={ ChineseMenu } />
         <Route exact path="/menu/japanese" component={ JapaneseMenu } />
         <Route exact path="/menu/southeast" component={ SouthEastMenu } />
+        <Route exact path="/menu/combinations" component={ LunchAndDinnerCombos } />
       </div>
     );
   }

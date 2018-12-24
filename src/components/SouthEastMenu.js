@@ -3,6 +3,9 @@ import Header from './Header';
 import '../styles/ChineseMenu.css';
 import Appetizers from './Categories/SouthEast/Appetizers'
 import Soups from './Categories/SouthEast/Soups'
+import NoodlesAndRice from './Categories/SouthEast/NoodlesAndRice'
+import Entrees from './Categories/SouthEast/Entrees'
+import Special from './Categories/SouthEast/Special'
 
 
 class SouthEastMenu extends React.Component{
@@ -10,6 +13,9 @@ class SouthEastMenu extends React.Component{
     super(props);
     this.Appetizers = React.createRef();
     this.Soups = React.createRef();
+    this.Noodles = React.createRef();
+    this.Entrees = React.createRef();
+    this.Special = React.createRef();
   }
 
   state={
@@ -57,14 +63,28 @@ class SouthEastMenu extends React.Component{
           <option value="Appetizers">Appetizers</option>
           <option value="Soups">Soups</option>
           <option value="Noodles">Noodles and Rice</option>
-          <option value="Entree">Entrees</option>
+          <option value="Entrees">Entrees</option>
           <option value="Special">House Special</option>
         </select>
         <div ref={this.Appetizers}>
           <Appetizers listItem={this.listFoodItem} />
         </div>
 
-        
+        <div ref={this.Soups}>
+          <Soups listItem={this.listFoodItem} />
+        </div>
+
+        <div ref={this.Noodles}>
+          <NoodlesAndRice listItem={this.listFoodItem} />
+        </div>
+
+        <div ref={this.Entrees}>
+          <Entrees listItem={this.listFoodItem} />
+        </div>
+
+        <div ref={this.Special}>
+          <Special listItem={this.listFoodItem} />
+        </div>
 
 
 

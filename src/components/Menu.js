@@ -20,7 +20,7 @@ class Menu extends Component{
           <p><Link to="/menu/chinese">Chinese Menu</Link></p>
           <p><Link to="/menu/japanese">Japanese Menu</Link></p>
           <p><Link to="/menu/southeast">South East Cusine</Link></p>
-          <p>Lunch and Dinner Combos</p>
+          <p><Link to="/menu/combinations">Lunch and Dinner Combos</Link></p>
         </div>
       </div>
     )
