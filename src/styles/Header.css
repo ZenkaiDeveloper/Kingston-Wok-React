@@ -143,8 +143,14 @@ header{
   }
 }
 
-@media (max-height: 450px), screen and (orientation: landscape){
+@media (max-height: 450px){
   header{
     height:8vh;
+  }
+}
+
+@media (min-width: 875px){
+  header{
+    height:3.5vh;
   }
 }

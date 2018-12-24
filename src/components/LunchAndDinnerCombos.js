@@ -72,6 +72,43 @@ const combos = () => {
       </table>
 
       </div>
+      <div style={{marginTop:"3rem"}} className="japanese-combos">
+        <h1>Japanese Lunch Specials</h1>
+        <p>Served with Miso Soup</p>
+        <table>
+          <thead>
+            <tr>
+              <th> </th>
+              <th className="item-area"></th>
+              <th className="table-headers table-pint"></th>
+              <th className="table-headers table-quart">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            {listFoodItem(1,"Sushi Lunch"," ", 10.50.toPrecision(4))}
+            <tr>
+              <td id="rev-diet" className="chef-description" colSpan="3"><small>1 California Roll & 4 pieces of Nigiri Sushi</small></td>
+            </tr>
+
+            {listFoodItem(2,"Sashimi Lunch"," ", 11.50.toPrecision(4))}
+            <tr>
+              <td id="rev-diet" className="chef-description" colSpan="3"><small>8 pieces of Premium Cuts of Raw Fish.</small></td>
+            </tr>
+
+            {listFoodItem(3,"Sushi and Sashimi Combo"," ", 15.95)}
+            <tr>
+              <td id="rev-diet" className="chef-description" colSpan="3"><small>1 California Roll, 6 pieces of Sashimi and 4 peices of nigiri sushi.</small></td>
+            </tr>
+
+            {listFoodItem(4,"Two California Rolls"," ", 9.50.toPrecision(3))}
+            {listFoodItem(5,"Tuna Roll and Spicy Tuna Roll"," ", 10.50.toPrecision(4))}
+            {listFoodItem(6,"Spicy Salmon and Philadelphia Roll"," ", 10.50.toPrecision(4))}
+            {listFoodItem(7,"Shitake Mushroom & Sweet Potato Tempura Roll"," ", 9.25)}
+
+
+          </tbody>
+        </table>
+      </div>
     </div>
   )
 }

@@ -3,12 +3,13 @@
 }
 
 .header-spacer{
-  height:7vh;
+  height:3rem;
 }
 
 .location-info{
   text-align: center;
   background-color: #ffdb70;
+  padding:1.2rem;
 }
 
 .location-info p{
@@ -33,15 +34,21 @@
   position:relative;
 }
 
-@media (max-height: 450px), screen and (orientation: landscape){
-  .header-spacer{
-    height:12vh;
-  }
-}
-
 @media screen and (min-width:450px){
   .show-img{
     width:100%;
     min-height: 100%;
   }
+}
+
+@media screen and (min-width:875px){
+  .header-spacer{
+    height:3rem;
+  }
+  .location-info{
+    text-align: center;
+    background-color: #ffdb70;
+    padding:2rem;
+  }
+
 }
