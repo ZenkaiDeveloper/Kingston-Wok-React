@@ -11,7 +11,7 @@
   position: relative;
   padding-top:50%;
   animation-name: slideUp;
-  animation-duration: .8s;
+  animation-duration: .4s;
 }
 
 .list-item{
@@ -57,7 +57,7 @@
   .nav-list{
     margin-top:-8rem;
     animation-name: slideUpSmallHeight;
-    animation-duration: .8s;
+    animation-duration: .4s;
     padding-top:25%;
 
   }

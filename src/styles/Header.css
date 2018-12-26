@@ -54,28 +54,28 @@ header{
 } */
 
 .animate-burger{
-  animation-duration:.75s;
+  animation-duration:.4s;
   animation-name: circleBurger;
   animation-fill-mode: both;
   animation-iteration-count: 1;
 }
 
 .animate-burger-div-one{
-  animation-duration:.75s;
+  animation-duration:.4s;
   animation-name: rotateFirst;
   animation-fill-mode: both;
   animation-iteration-count: 1;
 }
 
 .animate-burger-div-two{
-  animation-duration:.75s;
+  animation-duration:.4s;
   animation-name: makeCircle;
   animation-fill-mode: both;
   animation-iteration-count: 1;
 }
 
 .animate-burger-div-three{
-  animation-duration:.75s;
+  animation-duration:.4s;
   animation-name: rotateThird;
   animation-fill-mode: both;
   animation-iteration-count: 1;

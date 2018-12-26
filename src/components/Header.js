@@ -21,7 +21,7 @@ class Header extends React.Component{
           this.setState({
             showMenu:!this.state.showMenu
           })
-        }, 600)
+        }, 300)
       }
     })
   }

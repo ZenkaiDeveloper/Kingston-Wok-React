@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
+
 import Header from './Header'
 import '../styles/Homescreen.css'
 import chineseNoodle from '../Images/chinese-noodle.jpg'
@@ -17,6 +19,7 @@ class Homescreen extends Component{
         </div>
         <div className="showcase">
           <img alt="chinese noodles" className="show-img" src={chineseNoodle} />
+          <Link className="menu-btn" to='/menu'>Menu</Link>
         </div>
         <HomePageInfo />
       </div>
