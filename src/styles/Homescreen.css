@@ -42,8 +42,24 @@
   position:relative;
 }
 
+.catcher{
+  display:none;
+}
+
+.layer{
+  display:none;
+}
+
+.show-img-mobile{
+  height:100%;
+  max-width:100%;
+  margin: 0 auto;
+  display: block;
+  object-fit:cover;
+}
+
 @media screen and (min-width:450px){
-  .show-img{
+  .show-img-mobile{
     width:100%;
     min-height: 100%;
   }
@@ -62,6 +78,12 @@
 }
 
 @media screen and (min-width:1200px){
+  .show-img-mobile{
+    display: none;
+  }
+  .header-spacer{
+    display: none;
+  }
   .location-info{
     display:none;
   }
@@ -76,15 +98,14 @@
     object-fit:cover;
     position: absolute;
   }
-
+*/
   .show-img2{
-    height:100%;
-    max-width:100%;
-    margin: 0 auto;
     display: block;
-    position: absolute;
-    object-fit:cover;
-  } */
+  }
+
+  .showcase{
+    overflow: hidden;
+  }
 
   .catcher{
     position: absolute;
@@ -96,20 +117,24 @@
     left:25%;
     top:20%;
     z-index: 3;
+    display:block;
   }
 
-  /* .layer{
+  .layer{
     position: absolute;
     width: 100vw;
-    min-height: 55vw;
+    height:95vh;
     overflow: hidden;
+    display:block;
   }
+
 
   .layer .content-wrap{
     position: absolute;
     width: 100vw;
-    min-height: 55vw;
+    height:95vh;
   }
+
 
   .layer .content-body{
     width: 25%;
@@ -120,6 +145,8 @@
     color: white;
   }
 
+
+
   .layer img{
     position: absolute;
     width: 60%;
@@ -129,14 +156,18 @@
     border-radius: 10px;
   }
 
+
+
   .layer h1{
   font-size: 2rem;
 }
+
 
   .bottom{
     background: #3C3142;
     z-index: 1;
   }
+
 
   .bottom .content-body{
     right: 5%;
@@ -144,6 +175,7 @@
     background-color: rgba(124, 28, 16, 0.7);
     border-radius: 10px;
   }
+
 
   .bottom h1{
     color: #fdab00;
@@ -155,6 +187,7 @@
     width: 50vw;
   }
 
+
   .top .content-body{
     left: 5%;
     z-index: 2;
@@ -162,6 +195,7 @@
     border-radius: 10px;
     color: #f4f4f4;
   }
+
 
   .content-body h1{
     color:#fdab00;
@@ -174,32 +208,38 @@
     background-color: #fdab00;
     width: 5px;
     top: 0;
-    left: 51%;
+    left: 50%;
     z-index: 3;
   }
 
-  .skewed .handle{
+
+  .handle{
     top: 50%;
     transform: rotate(30deg) translateY(-50%);
     height: 200%;
     transform-origin: top;
   }
 
-  .skewed .top{
+
+  .top{
     transform: skew(-30deg);
     margin-left: -1000px;
     width: calc(50vw + 1000px);
   }
 
-  .skewed .top .content-wrap{
+
+  .top .content-wrap{
     transform: skew(30deg);
     margin-left: 1000px;
   }
 
-  .info{
+
+
+  /* .info{
   position: relative;
   background-color: #F59966;
-}
+} */
+
 
   /* .info-wrapper{
     display: grid;
