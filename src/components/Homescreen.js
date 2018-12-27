@@ -8,7 +8,7 @@ import HomePageInfo from './HomePageInfo'
 
 class Homescreen extends Component{
   state={
-    x: 0,
+    x: (window.innerWidth/2) * .95,
     skew:1000,
     delta:0
   }
