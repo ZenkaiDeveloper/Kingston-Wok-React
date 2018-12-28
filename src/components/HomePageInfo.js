@@ -24,7 +24,7 @@ class HomePageInfo extends Component{
               <div className="reservation-info">
                 <h2>Reservations</h2>
                 <p>Call in to reserve a table for up to 10 people.</p>
-                <button className="reservation-btn">Book A Table</button>
+                <button className="reservation-btn"><i className="fas fa-phone"></i> <a href="tel:+8453366979">845-336-6979</a></button>
               </div>
 
               <div className="about-photo">
@@ -32,7 +32,7 @@ class HomePageInfo extends Component{
               </div>
               <div className="about-info">
                 <h1>About Us</h1>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p className="about-paragraph">Kingston Wok is dedicated to serve you fresh food from all across Asia. You can expect traditional Chinese cusines with some that we put a healthier twist on by limiting the cornstarch, MSG, and oil in replacement of natural flavors of our ingridients. The Premium grade Tuna is shipped from NYC twice a week to make fresh sushi, and we also have a wide variety of options from the South East Asian area. We hope that whichever dish your curiosity leads you to try, you will want to come back for more. </p>
               </div>
             </div>
 
@@ -51,7 +51,7 @@ class HomePageInfo extends Component{
               </div>
               <div className="two">
                 <h1 className="menu-intro">Chef Specials</h1>
-                <p className="price">Starting at $5.75</p>
+                <p className="price">Starting at $11.50</p>
                 <p>A variety of large stir fried dishes with veggies and a side of rice.</p>
                 <Link to="/menu/chinese" className="menu-btn">View Specials</Link>
               </div>
@@ -69,7 +69,7 @@ class HomePageInfo extends Component{
               </div>
               <div className="four">
                 <h1 className="menu-intro">South East Asian Entrees</h1>
-                <p className="price">Starting at $5.75</p>
+                <p className="price">Starting at $13.50</p>
                 <p>Entrees come with your choice of Chicken, Beef, Jumbo Shrimp or Vegetable</p>
                 <Link to="/menu/southeast" className="menu-btn">See All Entrees</Link>
               </div>
