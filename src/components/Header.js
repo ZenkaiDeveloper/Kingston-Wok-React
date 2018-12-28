@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import '../styles/Header.css';
 import SideMenu from './SideMenu';
 
@@ -61,9 +62,11 @@ class Header extends React.Component{
   render(){
     return(
       <header>
+      <Link className="home-link" to="/">
         <div className="brand">
         Kingston Wok
         </div>
+      </Link>
         <div id="burger-container">
           <div className={this.animateBurger()} onClick={this.burgerClick} id = "burger">
             <div className={this.animateBurgerDivOne()}  ></div>

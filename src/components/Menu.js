@@ -17,10 +17,10 @@ class Menu extends Component{
           <p className="menu-hook">At Kingston Wok we use high quality ingridients to bring you the best flavors all in one place.</p>
         </div>
         <div className="menu-categories">
-          <p><Link to="/menu/chinese">Chinese Menu</Link></p>
-          <p><Link to="/menu/japanese">Japanese Menu</Link></p>
-          <p><Link to="/menu/southeast">South East Cusine</Link></p>
-          <p><Link to="/menu/combinations">Lunch and Dinner Combos</Link></p>
+          <Link className="menu-links" to="/menu/chinese"><p>Chinese Menu</p></Link>
+          <Link className="menu-links" to="/menu/japanese"><p>Japanese Menu</p></Link>
+          <Link className="menu-links" to="/menu/southeast"><p>South East Cusine</p></Link>
+          <Link className="menu-links" to="/menu/combinations"><p>Lunch and Dinner Combos</p></Link>
         </div>
       </div>
     )

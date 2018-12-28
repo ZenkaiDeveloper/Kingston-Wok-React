@@ -5,6 +5,10 @@
   color:#991900;
 }
 
+.japanese-combos{
+  margin-top:3rem;
+}
+
 
 
 
@@ -86,4 +90,39 @@ table{
 .size{
   padding-top:.75rem;
   padding-left:1rem;
+}
+
+@media screen and (min-width:1200px){
+  table, #chefs-special{
+    width:60%;
+    margin: 0 auto;
+  }
+
+  #chefs-special{
+    margin-top:5rem;
+
+  }
+
+  #chefs-special table{
+    width:90%;
+    padding:2rem;
+  }
+
+  .Lunch-Special, .Dinner{
+    text-align: center;
+    margin-top:2rem;
+  }
+
+  .size{
+    padding-left: 2rem;
+  }
+
+  .combos p{
+    text-align: center;
+  }
+
+  .chinese-combos, .japanese-combos{
+    margin-top:5rem;
+  }
+
 }

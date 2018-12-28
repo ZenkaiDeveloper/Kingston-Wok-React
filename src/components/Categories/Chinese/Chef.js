@@ -18,50 +18,50 @@ class ChefSpecials extends React.Component{
 
             {this.props.listItem("C1. Seafood Deluxe"," ",16.50.toPrecision(4))}
             <tr>
-              <td className="chef-description" colspan="3"><small>Assorted seafood including mussel, prawns, scallops, squid and seasonal vegetables sauteed in a white wine sauce.</small></td>
+              <td className="chef-description" colSpan="3"><small>Assorted seafood including mussel, prawns, scallops, squid and seasonal vegetables sauteed in a white wine sauce.</small></td>
             </tr>
 
 
             {this.props.listItem("C2. Crispy Prawns w. Walnuts"," ",16.95)}
             <tr>
-              <td className="chef-description" colspan="3"><small>Fried jumbo shrimp with honey walnuts served with a light touch of sweet and sour sauce.</small></td>
+              <td className="chef-description" colSpan="3"><small>Fried jumbo shrimp with honey walnuts served with a light touch of sweet and sour sauce.</small></td>
             </tr>
 
             {this.props.listItem("C3. Happy Family"," ",14.95)}
             <tr>
-              <td className="chef-description" colspan="3"><small>Chicken, shrimp, beef, and pork sauteed with fresh mixed vegetables.</small></td>
+              <td className="chef-description" colSpan="3"><small>Chicken, shrimp, beef, and pork sauteed with fresh mixed vegetables.</small></td>
             </tr>
 
             {this.props.listItem("C4. General Tso's Seafood"," ",16.95, true)}
             <tr>
-              <td className="chef-description" colspan="3"><small>Crispy fried assorted seafood including prawns, scallops, and broccoli sauteed in the chef's special spicy sauce.</small></td>
+              <td className="chef-description" colSpan="3"><small>Crispy fried assorted seafood including prawns, scallops, and broccoli sauteed in the chef's special spicy sauce.</small></td>
             </tr>
 
 
             {this.props.listItem("C5. Chicken and Beef Hunan Style"," ",14.25, true)}
             <tr>
-              <td className="chef-description" colspan="3"><small>Sliced white meat chicken and tender juicy beef, first marinated, then sauteed with a variety of Chinese vegetables in a Hunan sauce.</small></td>
+              <td className="chef-description" colSpan="3"><small>Sliced white meat chicken and tender juicy beef, first marinated, then sauteed with a variety of Chinese vegetables in a Hunan sauce.</small></td>
             </tr>
 
 
             {this.props.listItem("C6. Triple Delight"," ",14.95, true)}
             <tr>
-              <td className="chef-description" colspan="3"><small>Chicken, beef, and shrimp with fresh vegetables in a spicy garlic sauce.</small></td>
+              <td className="chef-description" colSpan="3"><small>Chicken, beef, and shrimp with fresh vegetables in a spicy garlic sauce.</small></td>
             </tr>
 
             {this.props.listItem("C7. Orange Two Flavor"," ",14.95, true)}
             <tr>
-              <td className="chef-description" colspan="3"><small>Deep fried crispy beef and chicken sauteed with our exclusive orange sauce.</small></td>
+              <td className="chef-description" colSpan="3"><small>Deep fried crispy beef and chicken sauteed with our exclusive orange sauce.</small></td>
             </tr>
 
             {this.props.listItem("C8. Vegitarian Four Seasons"," ",11.95)}
             <tr>
-              <td className="chef-description" colspan="3"><small>Asparagus, broccoli, eggplant and snowpeas sauteed in chef's special garlic sauce.</small></td>
+              <td className="chef-description" colSpan="3"><small>Asparagus, broccoli, eggplant and snowpeas sauteed in chef's special garlic sauce.</small></td>
             </tr>
 
             {this.props.listItem("C9. Orange Flavor Duck"," ",18.95)}
             <tr>
-              <td className="chef-description" colspan="3"><small>Crispy roasted duck with our chef's special orange sauce.</small></td>
+              <td className="chef-description" colSpan="3"><small>Crispy roasted duck with our chef's special orange sauce.</small></td>
             </tr>
 
           </tbody>
@@ -83,14 +83,14 @@ class ChefSpecials extends React.Component{
             {this.props.listItem("R4. Prawns with Broccoli, Mushroom and Moo Shu Seasonings"," ",12.50.toPrecision(4))}
             {this.props.listItem("R5. Buddha Plus Seasame Tofu"," ",10.95)}
             <tr>
-              <td id="rev-diet" className="chef-description" colspan="3"><small>Snow peas, green beans, baby corn, mushrooms, bean sprouts, broccoli, tofu & sesame.</small></td>
+              <td id="rev-diet" className="chef-description" colSpan="3"><small>Snow peas, green beans, baby corn, mushrooms, bean sprouts, broccoli, tofu & sesame.</small></td>
             </tr>
             {this.props.listItem("R6. Scallop with Broccoli and Bean Sprouts in Hot Garlic Sauce"," ",15.95, true)}
 
 
             {this.props.listItem("R7. Protien Trio"," ",15.95, true)}
             <tr>
-              <td id="rev-diet" className="chef-description" colspan="3"><small>Scallop, chicken, shrimp, with broccoli, snowpease and bean sprouts in a spicy Hunan Sauce.</small></td>
+              <td id="rev-diet" className="chef-description" colSpan="3"><small>Scallop, chicken, shrimp, with broccoli, snowpease and bean sprouts in a spicy Hunan Sauce.</small></td>
             </tr>
 
           </tbody>

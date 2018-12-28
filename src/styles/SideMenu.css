@@ -72,3 +72,9 @@
     font-size: 2rem;
   }
 }
+
+@media screen and (min-width: 1200px){
+  .list-item{
+    font-size: 5rem;
+  }
+}

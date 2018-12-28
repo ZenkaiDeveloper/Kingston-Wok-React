@@ -1,11 +1,11 @@
-.chinese-menu, .southeast-menu{
+.chinese-menu, .southeast-menu, .combos{
   min-height:100vh;
   background-color:#d4d4d4;
   padding-bottom: 5rem;
 }
 
 .category-select{
-  margin-top:.5rem;
+  margin-top:1rem;
   width:100%;
   border:1px solid gray;
   font-size: 1.2rem;
@@ -15,4 +15,11 @@
 .spicy{
   font-weight: bold;
   color: #d81111;
+}
+
+
+@media screen and (min-width:1200px){
+  .category-select{
+    margin-top:.5rem;
+  }
 }
