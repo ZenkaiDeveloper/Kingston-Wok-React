@@ -23,7 +23,7 @@ class Homescreen extends Component{
     return(
       <div className="homescreen">
         <Header/>
-        <div className="header-spacer"></div>
+        <div className="header-spacer homepage-header-spacer"></div>
         <div className="location-info">
           <p><i className="fas fa-map"></i> 1353 Ulster Ave. Kingston, NY 12401</p>
           <p><i className="fas fa-phone"></i> 845-336-6979</p>

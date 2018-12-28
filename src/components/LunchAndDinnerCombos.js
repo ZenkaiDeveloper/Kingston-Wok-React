@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header'
+import '../styles/ChineseMenu.css'
 
 const combos = () => {
   const listFoodItem = (id, name, ptPrice, qtPrice = " ", spice = false) => {
@@ -35,7 +36,7 @@ const combos = () => {
       </div>
       <div className="Dinner Combos">
         <h3>DINNER COMBO:</h3>
-        <p>Served with Rice(Roast Pork Fried, White, or Brown) Soup(Wonton, Egg Drop, or Hot&Sour) AND an Egg Roll .</p>
+        <p>Served with Rice(Roast Pork Fried, White, or Brown) Soup(Wonton, Egg Drop, or Hot&Sour) AND an Egg Roll.</p>
       </div>
       <div className="chinese-combos">
       <table>
@@ -72,7 +73,7 @@ const combos = () => {
       </table>
 
       </div>
-      <div style={{marginTop:"3rem"}} className="japanese-combos">
+      <div className="japanese-combos">
         <h1>Japanese Lunch Specials</h1>
         <p>Served with Miso Soup</p>
         <table>

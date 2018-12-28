@@ -73,7 +73,6 @@ class ChineseMenu extends React.Component{
         <Header />
         <div className="header-spacer"></div>
         <select className="category-select" onChange={this.changeHandler} value={this.state.category}>
-          <option value=""> </option>
           <option value="Soups">Soups</option>
           <option value="Appetizers">Appetizers</option>
           <option value="LoAndChow">Lo Mein/Chow Mein</option>

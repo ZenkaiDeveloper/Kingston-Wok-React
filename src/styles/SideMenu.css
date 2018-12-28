@@ -11,7 +11,7 @@
   position: relative;
   padding-top:50%;
   animation-name: slideUp;
-  animation-duration: .8s;
+  animation-duration: .4s;
 }
 
 .list-item{
@@ -70,5 +70,11 @@
     font-family: 'Lobster', cursive;
     color: inherit;
     font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .list-item{
+    font-size: 5rem;
   }
 }

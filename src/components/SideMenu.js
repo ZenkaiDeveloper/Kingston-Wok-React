@@ -9,7 +9,7 @@ class SideMenu extends Component{
       <div>
         <ul className="nav-list">
           <li className="list-item"><Link to="/" >Home</Link></li>
-          <li className="list-item">Reservations</li>
+          {/*<li className="list-item">Reservations</li>*/}
           <li className="list-item"><Link to="/menu" >Menu</Link></li>
         </ul>
       </div>

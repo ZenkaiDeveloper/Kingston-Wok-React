@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/HomePageInfo.css';
 import EntrancePic from '../Images/kingston-landing.jpg';
 import DiningPic from "../Images/black-background-bowl.jpg";
@@ -43,7 +44,7 @@ class HomePageInfo extends Component{
                 <h1 className="menu-intro">Chinese Lunch And Dinner Combos</h1>
                 <p className="price">Starting at $5.75</p>
                 <p>Lunches combos come with entree and rice.</p>
-                <button className="menu-btn">See All Combos</button>
+                <Link to="/menu/combinations" className="menu-btn">See All Combos</Link>
               </div>
               <div className="one-img">
                 <img src={WokCooking} alt="Wok Cooking"/>
@@ -52,7 +53,7 @@ class HomePageInfo extends Component{
                 <h1 className="menu-intro">Chef Specials</h1>
                 <p className="price">Starting at $5.75</p>
                 <p>A variety of large stir fried dishes with veggies and a side of rice.</p>
-                <button className="menu-btn">View Specials</button>
+                <Link to="/menu/chinese" className="menu-btn">View Specials</Link>
               </div>
               <div className="two-img">
                 <img src={Shrimp} alt="Shrimp Stir Fry"/>
@@ -61,7 +62,7 @@ class HomePageInfo extends Component{
                 <h1 className="menu-intro">House Special Sushi Rolls</h1>
                 <p className="price">Starting at $7.25</p>
                 <p>Select from a variety of hand rolled cooked or raw rolls.</p>
-                <button className="menu-btn">More Rolls</button>
+                <Link to="/menu/japanese" className="menu-btn">More Rolls</Link>
               </div>
               <div className="three-img">
                 <img src={SushiRoll} alt="Spring Fantasy Roll"/>
@@ -70,7 +71,7 @@ class HomePageInfo extends Component{
                 <h1 className="menu-intro">South East Asian Entrees</h1>
                 <p className="price">Starting at $5.75</p>
                 <p>Entrees come with your choice of Chicken, Beef, Jumbo Shrimp or Vegetable</p>
-                <button className="menu-btn">See All Entrees</button>
+                <Link to="/menu/southeast" className="menu-btn">See All Entrees</Link>
               </div>
               <div className="four-img">
                 <img src={SpringRoll} alt="Spring Roll"/>

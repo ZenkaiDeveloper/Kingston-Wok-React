@@ -1,10 +1,13 @@
 .menu{
   color:#f4f4f4;
 }
-
 .menu-categories {
   list-style-type: none;
   margin-top:10vh;
+}
+
+.menu-links{
+  text-decoration: none;
 }
 
 .menu-hook{
@@ -32,4 +35,29 @@
 .menu-categories p a{
   text-decoration: none;
   color:#fdab00;
+}
+
+
+@media screen and (min-width: 1200px){
+  .header-spacer{
+    height:3rem;
+  }
+  .menu-hook{
+    width:40%;
+    font-family:Lobster;
+    background-color: brown;
+    margin: 3rem auto;
+    font-size: 2rem;
+    opacity:.9;
+    color: #f4f4f4;
+    padding:.5rem;
+  }
+
+  .menu-categories {
+    list-style-type: none;
+    margin:0;
+    font-size: 2;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
 }
