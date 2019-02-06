@@ -24,7 +24,7 @@ class HomePageInfo extends Component{
               <div className="reservation-info">
                 <h2>Reservations</h2>
                 <p>Call in to reserve a table for up to 10 people.</p>
-                <button className="reservation-btn"><i className="fas fa-phone"></i> <a href="tel:+8453366979">845-336-6979</a></button>
+                <button className="reservation-btn"><i className="fas fa-phone"></i> <a href="tel:845-336-6979">845-336-6979</a></button>
               </div>
 
               <div className="about-photo">

@@ -42,18 +42,6 @@
   position:relative;
 }
 
-<<<<<<< HEAD
-.menu-btn{
-  position:absolute;
-  text-decoration: none;
-  color:black;
-  font-size:1.2rem;
-  bottom:1.5rem;
-  left:45%;
-  z-index: 3;
-  background-color:orange;
-  opacity:0.8;
-=======
 .catcher{
   display:none;
 }
@@ -68,7 +56,6 @@
   margin: 0 auto;
   display: block;
   object-fit:cover;
->>>>>>> Deployment
 }
 
 @media screen and (min-width:450px){

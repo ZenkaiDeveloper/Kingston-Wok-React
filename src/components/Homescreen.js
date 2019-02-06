@@ -30,12 +30,6 @@ class Homescreen extends Component{
           <p><i className="fas fa-map"></i> 1353 Ulster Ave. Kingston, NY 12401</p>
           <p><i className="fas fa-phone"></i> 845-336-6979</p>
         </div>
-<<<<<<< HEAD
-        <div className="showcase">
-          <img alt="chinese noodles" className="show-img" src={chineseNoodle} />
-          <Link className="menu-btn" to='/menu'>Menu</Link>
-        </div>
-=======
 
         <section onMouseMove={this.changeHandler} className="showcase">
           <img alt="Chinese Noodles" className="show-img-mobile" src={chineseNoodle} />
@@ -61,7 +55,6 @@ class Homescreen extends Component{
            </div>
            <div style={{left:`${this.state.x + this.state.delta}px`}} className="handle"></div>
         </section>
->>>>>>> Deployment
         <HomePageInfo />
       </div>
     )
