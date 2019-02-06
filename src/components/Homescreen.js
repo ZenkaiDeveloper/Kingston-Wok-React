@@ -15,7 +15,6 @@ class Homescreen extends Component{
     delta:0
   }
   changeHandler = (event) => {
-    console.log("X Value :", event.screenX, "Y value: ",event.screenY)
     this.setState({
       x:event.clientX,
       delta: (event.clientX - window.innerWidth/2) * 0.3
