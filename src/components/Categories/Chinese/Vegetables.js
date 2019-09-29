@@ -3,7 +3,7 @@ import '../../../styles/Categories.css'
 
 class Vegetables extends React.Component{
   pintBase = 6.95;
-  quartBase = 9.95;
+  quartBase = 10.20;
   render(){
     return(
       <div className=" category-introduction Vegetables" >
@@ -17,12 +17,12 @@ class Vegetables extends React.Component{
             </tr>
           </thead>
           <tbody>
-            {this.props.listItem("Buddha's Delight(Mixed Veggies)",this.pintBase,  this.quartBase)}
-            {this.props.listItem("Broccoli with Garlic Sauce","N/A",  this.quartBase, true)}
+            {this.props.listItem("Buddha's Delight(Mixed Veggies)","N/A",  this.quartBase.toPrecision(4))}
+            {this.props.listItem("Broccoli with Garlic Sauce","N/A",  this.quartBase.toPrecision(4), true)}
             {this.props.listItem("Sauteed String Beans","N/A",  (this.quartBase+.30).toPrecision(4))}
             {this.props.listItem("Eggplant with Garlic Sauce","N/A",  (this.quartBase+.30).toPrecision(4), true)}
-            {this.props.listItem("Bean Curd Szechuan Style","N/A", this.quartBase, true)}
-            {this.props.listItem("Moo Shu Vegetable","N/A", this.quartBase)}
+            {this.props.listItem("Bean Curd Szechuan Style","N/A", this.quartBase.toPrecision(4), true)}
+            {this.props.listItem("Moo Shu Vegetable","N/A", this.quartBase.toPrecision(4))}
 
           </tbody>
         </table>

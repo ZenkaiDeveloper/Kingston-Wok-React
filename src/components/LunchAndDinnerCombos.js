@@ -49,25 +49,25 @@ const combos = () => {
           </tr>
         </thead>
         <tbody>
-          {listFoodItem(1,"Lo Mein(Chicken or Pork)", 5.75, 9.25)}
-          {listFoodItem(2,"Chow Mein(Chicken or Pork)", 5.75, 9.25)}
-          {listFoodItem(3,"Chicken With Broccoli", 6.25, 9.50.toPrecision(3))}
-          {listFoodItem(4,"Moo Goo Gai Pan", 6.25, 9.50.toPrecision(3))}
-          {listFoodItem(5,"Chicken with Hot Pepper Peanut Sauce", 6.25, 9.50.toPrecision(3), true)}
-          {listFoodItem(6,"Sweet And Sour Chicken", 6.25, 9.50.toPrecision(3))}
-          {listFoodItem(7,"Roast Pork With Mixed Vegetables", 6.25, 9.50.toPrecision(3))}
-          {listFoodItem(8,"Double Sauteed Pork", 6.25, 9.50.toPrecision(3), true)}
-          {listFoodItem(9,"Beef with Broccoli", 6.50.toPrecision(3), 9.75)}
-          {listFoodItem(10,"Pepper Steak", 6.50.toPrecision(3), 9.75)}
-          {listFoodItem(11,"Beef with Szechuan Style", 6.50.toPrecision(3), 9.75, true)}
-          {listFoodItem(12,"Hunan Beef", 6.50.toPrecision(3), 9.75, true)}
-          {listFoodItem(13,"Beef with Garlic Sauce", 6.50.toPrecision(3), 9.75, true)}
-          {listFoodItem(14,"Chicken and Shrimp Combo", 6.50.toPrecision(3), 9.75)}
-          {listFoodItem(15,"Shrimp With Lobster Sauce", 6.75, 9.95)}
-          {listFoodItem(16,"Shrimp With Broccoli", 6.75, 9.95)}
-          {listFoodItem(17,"Boneless Spare Ribs", 6.75, 9.95)}
-          {listFoodItem(18,"General Tso's Chicken", 6.75, 9.95, true)}
-          {listFoodItem(19,"Sesame Chicken", 6.75, 9.95)}
+          {listFoodItem(1,"Lo Mein(Chicken or Pork)", 6.00.toPrecision(3), 9.50.toPrecision(3))}
+          {listFoodItem(2,"Chow Mein(Chicken or Pork)", 6.00.toPrecision(3), 9.50.toPrecision(3))}
+          {listFoodItem(3,"Chicken With Broccoli", 6.50.toPrecision(3), 9.75.toPrecision(3))}
+          {listFoodItem(4,"Moo Goo Gai Pan", 6.50.toPrecision(3), 9.75.toPrecision(3))}
+          {listFoodItem(5,"Chicken with Hot Pepper Peanut Sauce", 6.50.toPrecision(3), 9.75.toPrecision(3), true)}
+          {listFoodItem(6,"Sweet And Sour Chicken", 6.50.toPrecision(3), 9.75.toPrecision(3))}
+          {listFoodItem(7,"Roast Pork With Mixed Vegetables", 6.50.toPrecision(3), 9.75.toPrecision(3))}
+          {listFoodItem(8,"Double Sauteed Pork", 6.50.toPrecision(3), 9.75.toPrecision(3), true)}
+          {listFoodItem(9,"Beef with Broccoli", 6.75.toPrecision(3), 10.00.toPrecision(4))}
+          {listFoodItem(10,"Pepper Steak", 6.75.toPrecision(3), 10.00.toPrecision(4))}
+          {listFoodItem(11,"Beef with Szechuan Style", 6.75.toPrecision(3), 10.00.toPrecision(4), true)}
+          {listFoodItem(12,"Hunan Beef", 6.75.toPrecision(3), 10.00.toPrecision(4), true)}
+          {listFoodItem(13,"Beef with Garlic Sauce", 6.75.toPrecision(3), 10.00.toPrecision(4), true)}
+          {listFoodItem(14,"Chicken and Shrimp Combo", 6.75.toPrecision(3), 10.00.toPrecision(4))}
+          {listFoodItem(15,"Shrimp With Lobster Sauce", 7.00.toPrecision(3), 10.20.toPrecision(4))}
+          {listFoodItem(16,"Shrimp With Broccoli", 7.00.toPrecision(3), 10.20.toPrecision(4))}
+          {listFoodItem(17,"Boneless Spare Ribs", 7.00.toPrecision(3), 10.20.toPrecision(4))}
+          {listFoodItem(18,"General Tso's Chicken", 7.00.toPrecision(3), 10.20.toPrecision(4), true)}
+          {listFoodItem(19,"Sesame Chicken", 7.00.toPrecision(3), 10.20.toPrecision(4))}
 
         </tbody>
       </table>
@@ -86,25 +86,25 @@ const combos = () => {
             </tr>
           </thead>
           <tbody>
-            {listFoodItem(1,"Sushi Lunch"," ", 10.50.toPrecision(4))}
+            {listFoodItem(1,"Sushi Lunch"," ", 10.60.toPrecision(4))}
             <tr>
               <td id="rev-diet" className="chef-description" colSpan="3"><small>1 California Roll & 4 pieces of Nigiri Sushi</small></td>
             </tr>
 
-            {listFoodItem(2,"Sashimi Lunch"," ", 11.50.toPrecision(4))}
+            {listFoodItem(2,"Sashimi Lunch"," ", 11.60.toPrecision(4))}
             <tr>
               <td id="rev-diet" className="chef-description" colSpan="3"><small>8 pieces of Premium Cuts of Raw Fish.</small></td>
             </tr>
 
-            {listFoodItem(3,"Sushi and Sashimi Combo"," ", 15.95)}
+            {listFoodItem(3,"Sushi and Sashimi Combo"," ", 16.05)}
             <tr>
               <td id="rev-diet" className="chef-description" colSpan="3"><small>1 California Roll, 6 pieces of Sashimi and 4 peices of nigiri sushi.</small></td>
             </tr>
 
-            {listFoodItem(4,"Two California Rolls"," ", 9.50.toPrecision(3))}
-            {listFoodItem(5,"Tuna Roll and Spicy Tuna Roll"," ", 10.50.toPrecision(4))}
-            {listFoodItem(6,"Spicy Salmon and Philadelphia Roll"," ", 10.50.toPrecision(4))}
-            {listFoodItem(7,"Shitake Mushroom & Sweet Potato Tempura Roll"," ", 9.25)}
+            {listFoodItem(4,"Two California Rolls"," ", 9.60.toPrecision(3))}
+            {listFoodItem(5,"Tuna Roll and Spicy Tuna Roll"," ", 10.60.toPrecision(4))}
+            {listFoodItem(6,"Spicy Salmon and Philadelphia Roll"," ", 10.60.toPrecision(4))}
+            {listFoodItem(7,"Shitake Mushroom & Sweet Potato Tempura Roll"," ", 9.35)}
 
 
           </tbody>

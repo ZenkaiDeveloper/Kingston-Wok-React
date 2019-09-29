@@ -2,8 +2,8 @@ import React from 'react';
 import '../../../styles/Categories.css'
 
 class Soups extends React.Component{
-  basicPint = 2.75;
-  basicQuart = 4.95;
+  basicPint = 2.95;
+  basicQuart = 5.15;
 
   listFoodItem
   render(){
@@ -23,9 +23,9 @@ class Soups extends React.Component{
             {this.props.listSoup("Wonton Soup", this.basicPint, this.basicQuart)}
             {this.props.listSoup("Hot and Sour Soup", this.basicPint, this.basicQuart)}
             {this.props.listSoup("Chicken Rice or Noodle", this.basicPint, this.basicQuart)}
-            {this.props.listSoup("Vegetable Bean Curd Soup (For 2)", "N/A", 6.95)}
-            {this.props.listSoup("Young Chow Wonton Soup (For 2)", "N/A", 7.95)}
-            {this.props.listSoup("Seafood Hot & Sour Soup (For 2)", "N/A", 8.95)}
+            {this.props.listSoup("Vegetable Bean Curd Soup (For 2)", "N/A", 7.15)}
+            {this.props.listSoup("Young Chow Wonton Soup (For 2)", "N/A", 8.15)}
+            {this.props.listSoup("Seafood Hot & Sour Soup (For 2)", "N/A", 9.15)}
           </tbody>
         </table>
         <h2 style={{marginTop:"2rem"}}>Big Bowl of Chinatown Noodle Soup</h2>
@@ -38,9 +38,9 @@ class Soups extends React.Component{
             </tr>
           </thead>
           <tbody>
-            {this.props.listSoup("Roast Pork & Wonton", " ", 9.25)}
-            {this.props.listSoup("Dumpling Lover (Choice of Chicken,Pork or Veggies)", " ", 9.25)}
-            {this.props.listSoup("Shredded Chicken or Beef With Shitake Mushroom", " ", 9.25)}
+            {this.props.listSoup("Roast Pork & Wonton", " ", 9.45)}
+            {this.props.listSoup("Dumpling Lover (Choice of Chicken,Pork or Veggies)", " ", 9.45)}
+            {this.props.listSoup("Shredded Chicken or Beef With Shitake Mushroom", " ", 9.45)}
           </tbody>
         </table>
       </div>

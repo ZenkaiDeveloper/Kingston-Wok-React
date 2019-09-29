@@ -2,8 +2,8 @@ import React from 'react';
 import '../../../styles/Categories.css'
 
 class Seafood extends React.Component{
-  pintBase = 8.25;
-  quartBase = 12.25;
+  pintBase = 8.50;
+  quartBase = 12.50;
   render(){
     return(
       <div className=" category-introduction Seafood" >
@@ -17,12 +17,12 @@ class Seafood extends React.Component{
             </tr>
           </thead>
           <tbody>
-            {this.props.listItem("Shrimp with Broccoli",this.pintBase,  this.quartBase)}
-            {this.props.listItem("Shrimp with Mixed Vegetables",this.pintBase,  this.quartBase)}
-            {this.props.listItem("Shrimp with Lobster Sauce",this.pintBase,  this.quartBase)}
-            {this.props.listItem("Shrimp with Garlic Sauce",this.pintBase,  this.quartBase, true)}
-            {this.props.listItem("Shrimp with Hot Pepper Sauce and Peanuts",this.pintBase,  this.quartBase, true)}
-            {this.props.listItem("Shrimp with Cashew Nuts",this.pintBase,  this.quartBase)}
+            {this.props.listItem("Shrimp with Broccoli",this.pintBase.toPrecision(3),  this.quartBase.toPrecision(4))}
+            {this.props.listItem("Shrimp with Mixed Vegetables",this.pintBase.toPrecision(3),  this.quartBase.toPrecision(4))}
+            {this.props.listItem("Shrimp with Lobster Sauce",this.pintBase.toPrecision(3),  this.quartBase.toPrecision(4))}
+            {this.props.listItem("Shrimp with Garlic Sauce",this.pintBase.toPrecision(3),  this.quartBase.toPrecision(4), true)}
+            {this.props.listItem("Shrimp with Hot Pepper Sauce and Peanuts",this.pintBase.toPrecision(3),  this.quartBase.toPrecision(4), true)}
+            {this.props.listItem("Shrimp with Cashew Nuts",this.pintBase.toPrecision(3),  this.quartBase.toPrecision(4))}
             {this.props.listItem("Scallops with Garlic Sauce","N/A",  (this.quartBase+3.70).toPrecision(4), true)}
             {this.props.listItem("Scallops with Broccoli","N/A",  (this.quartBase+3.70).toPrecision(4))}
           </tbody>

@@ -16,18 +16,18 @@ class Soups extends React.Component{
             </tr>
           </thead>
           <tbody>
-            {this.props.listItem("Miso Soup"," ", 2.75)}
+            {this.props.listItem("Miso Soup"," ", 2.95)}
             <tr>
               <td className="chef-description" colSpan="3"><small>Soy bean paste, wakame, tofu and scallion soup.</small></td>
             </tr>
 
 
-            {this.props.listItem("Shrimp Clear Soup"," ", 3.25)}
+            {this.props.listItem("Shrimp Clear Soup"," ", 4.25)}
             <tr>
               <td className="chef-description" colSpan="3"><small>Shrimp, Mushrooms and Vegetables in a clear broth.</small></td>
             </tr>
 
-            {this.props.listItem("Seafood Miso Soup"," ", 8.25)}
+            {this.props.listItem("Seafood Miso Soup"," ", 8.50.toPrecision(3))}
             <tr>
               <td className="chef-description" colSpan="3"><small>Shrimp, Scallop, Crab, Tofu, Wakame and Scallion for 2.</small></td>
             </tr>

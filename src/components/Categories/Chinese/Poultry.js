@@ -2,8 +2,8 @@ import React from 'react';
 import '../../../styles/Categories.css'
 
 class Poultry extends React.Component{
-  pintBase = 7.50;
-  quartBase = 10.95;
+  pintBase = 7.75;
+  quartBase = 11.20;
   render(){
     return(
       <div className=" category-introduction Poultry" >
@@ -17,15 +17,15 @@ class Poultry extends React.Component{
             </tr>
           </thead>
           <tbody>
-            {this.props.listItem("Moo Shu Chicken(w. 4 Pancakes)"," ",  this.quartBase)}
-            {this.props.listItem("Chicken w. Broccoli",this.pintBase.toPrecision(3),  this.quartBase)}
-            {this.props.listItem("Moo Goo Gai Pan",this.pintBase.toPrecision(3),  this.quartBase)}
-            {this.props.listItem("Chicken w. Mixed Vegetables",this.pintBase.toPrecision(3),  this.quartBase)}
-            {this.props.listItem("Chicken with Cashew Nuts",this.pintBase.toPrecision(3),  this.quartBase)}
-            {this.props.listItem("Chicken with Hot Pepper Sauce w. Peanuts",this.pintBase.toPrecision(3),  this.quartBase, true)}
-            {this.props.listItem("Chicken with Garlic Sauce",this.pintBase.toPrecision(3),  this.quartBase, true)}
-            {this.props.listItem("Chicken with Black Bean Sauce",this.pintBase.toPrecision(3),  this.quartBase)}
-            {this.props.listItem("Sweet and Sour Chicken",this.pintBase.toPrecision(3),  this.quartBase)}
+            {this.props.listItem("Moo Shu Chicken(w. 4 Pancakes)"," ",  this.quartBase.toPrecision(4))}
+            {this.props.listItem("Chicken w. Broccoli",this.pintBase.toPrecision(3),  this.quartBase.toPrecision(4))}
+            {this.props.listItem("Moo Goo Gai Pan",this.pintBase.toPrecision(3),  this.quartBase.toPrecision(4))}
+            {this.props.listItem("Chicken w. Mixed Vegetables",this.pintBase.toPrecision(3),  this.quartBase.toPrecision(4))}
+            {this.props.listItem("Chicken with Cashew Nuts",this.pintBase.toPrecision(3),  this.quartBase.toPrecision(4))}
+            {this.props.listItem("Chicken with Hot Pepper Sauce w. Peanuts",this.pintBase.toPrecision(3),  this.quartBase.toPrecision(4), true)}
+            {this.props.listItem("Chicken with Garlic Sauce",this.pintBase.toPrecision(3),  this.quartBase.toPrecision(4), true)}
+            {this.props.listItem("Chicken with Black Bean Sauce",this.pintBase.toPrecision(3),  this.quartBase.toPrecision(4))}
+            {this.props.listItem("Sweet and Sour Chicken",this.pintBase.toPrecision(3),  this.quartBase.toPrecision(4))}
             {this.props.listItem("Chicken and Shrimp Combination",this.pintBase.toPrecision(3),  (this.quartBase+.3).toPrecision(4))}
             {this.props.listItem("General Tso's Chicken","N/A",  (this.quartBase+1).toPrecision(4), true)}
             {this.props.listItem("Sesame Chicken","N/A",  (this.quartBase+1).toPrecision(4))}

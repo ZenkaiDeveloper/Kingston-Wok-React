@@ -2,8 +2,8 @@ import React from 'react';
 import '../../../styles/Categories.css'
 
 class FriedRice extends React.Component{
-  basePint = 5.25;
-  baseQuart = 7.50;
+  basePint = 5.50;
+  baseQuart = 7.75;
   render(){
     return(
       <div className=" category-introduction FriedRice" >

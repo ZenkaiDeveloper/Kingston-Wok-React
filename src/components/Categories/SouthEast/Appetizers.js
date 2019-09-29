@@ -16,27 +16,27 @@ class Appetizers extends React.Component{
             </tr>
           </thead>
           <tbody>
-            {this.props.listItem("Thai Chicken Egg Roll"," ", 5.95)}
+            {this.props.listItem("Thai Chicken Egg Roll"," ", 6.15)}
             <tr>
               <td className="chef-description" colSpan="3"><small>Chicken, bean curd, cabbage, carrot, and glass noodles. Served with sweet and spicy sauce.</small></td>
             </tr>
 
-            {this.props.listItem("Golden Crispy Tofu"," ", 5.75)}
+            {this.props.listItem("Golden Crispy Tofu"," ", 5.95)}
             <tr>
               <td className="chef-description" colSpan="3"><small>Served with peanut sauce.</small></td>
             </tr>
 
-            {this.props.listItem("Malaysian Chicken Satay"," ", 5.95)}
+            {this.props.listItem("Malaysian Chicken Satay"," ", 6.15)}
             <tr>
               <td className="chef-description" colSpan="3"><small>Chicken skewers served with cucumber and spicy curry peanut sauce.</small></td>
             </tr>
 
-            {this.props.listItem("Coconut Shrimp"," ", 7.25)}
+            {this.props.listItem("Coconut Shrimp"," ", 7.45)}
             <tr>
               <td className="chef-description" colSpan="3"><small>Served with Thai green chili sauce.</small></td>
             </tr>
 
-            {this.props.listItem("Thai Style House Salad"," ", 5.95)}
+            {this.props.listItem("Thai Style House Salad"," ", 6.15)}
             <tr>
               <td className="chef-description" colSpan="3"><small>Glass noodles, onion, carrot, celery, tomatoes, mango, cucumber, green and red peppers with crushed peanut spicy Thai herbs, lemongrass and lime juice dressing.</small></td>
             </tr>

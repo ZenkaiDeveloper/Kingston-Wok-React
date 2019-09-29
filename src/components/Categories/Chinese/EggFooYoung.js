@@ -2,7 +2,7 @@ import React from 'react';
 import '../../../styles/Categories.css'
 
 class EggFooYoung extends React.Component{
-  base = 9.75;
+  base = 10.00;
   render(){
     return(
       <div className=" category-introduction EggFooYoung" >
@@ -16,8 +16,8 @@ class EggFooYoung extends React.Component{
             </tr>
           </thead>
           <tbody>
-            {this.props.listItem("Chicken"," ",  this.base)}
-            {this.props.listItem("Roast Pork"," ",  this.base)}
+            {this.props.listItem("Chicken"," ",  this.base.toPrecision(4))}
+            {this.props.listItem("Roast Pork"," ",  this.base.toPrecision(4))}
             {this.props.listItem("Vegetable"," ",  (this.base-.25).toPrecision(3))}
             {this.props.listItem("Shrimp"," ", (this.base+.75).toPrecision(4))}
             {this.props.listItem("Mixed"," ", (this.base+1.20).toPrecision(4))}

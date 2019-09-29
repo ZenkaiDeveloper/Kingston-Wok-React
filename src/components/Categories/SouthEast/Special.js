@@ -16,10 +16,10 @@ class Special extends React.Component{
             </tr>
           </thead>
           <tbody>
-            {this.props.listItem("Crispy Red Snapper Fillet with Thai Sweet and Spicy Garlic Chili Sauce"," ", 17.50.toPrecision(4))}
-            {this.props.listItem("Pan Seared Salmon with Spicy Basil Ginger Black Bean Sauce"," ", 17.25)}
-            {this.props.listItem("Thai Spicy Basil Bean Sauce With Chicken & Shrimp"," ", 16.95)}
-            {this.props.listItem("Cashew Seafood With Light Spicy Garlic Ginger Sauce"," ", 16.95)}
+            {this.props.listItem("Crispy Red Snapper Fillet with Thai Sweet and Spicy Garlic Chili Sauce"," ", 17.75.toPrecision(4))}
+            {this.props.listItem("Pan Seared Salmon with Spicy Basil Ginger Black Bean Sauce"," ", 17.50.toPrecision(4))}
+            {this.props.listItem("Thai Spicy Basil Bean Sauce With Chicken & Shrimp"," ", 17.20.toPrecision(4))}
+            {this.props.listItem("Cashew Seafood With Light Spicy Garlic Ginger Sauce"," ", 17.20.toPrecision(4))}
           </tbody>
         </table>
 

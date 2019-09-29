@@ -9,3 +9,11 @@
 .home-link, .menu-btn{
   text-decoration: none;
 }
+
+.size{
+  text-align: center;
+}
+
+#rev-diet small {
+  margin-left: 2rem;
+}
