@@ -2,8 +2,8 @@ import React from 'react';
 import '../../../styles/Categories.css'
 
 class Pork extends React.Component{
-  pintBase = 7.75.toPrecision(3);
-  quartBase = 11.20;
+  pintBase = 7.95.toPrecision(3);
+  quartBase = 11.45;
   render(){
     return(
       <div className=" category-introduction Pork" >

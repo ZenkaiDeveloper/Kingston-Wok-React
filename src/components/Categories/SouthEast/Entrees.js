@@ -17,10 +17,10 @@ class Entrees extends React.Component{
             </tr>
           </thead>
           <tbody>
-            {this.props.listItem("Basil and Ginger Stir Fry"," ", 13.75.toPrecision(4))}
-            {this.props.listItem("Garlic Black Pepper with Thai Fish Sauce"," ", 13.75.toPrecision(4))}
-            {this.props.listItem("Thai Green Curry with Coconut Milk"," ", 14.50.toPrecision(4))}
-            {this.props.listItem("Malaysian Red Curry with Coconut Milk"," ", 14.50.toPrecision(4))}
+            {this.props.listItem("Basil and Ginger Stir Fry"," ", 13.80.toPrecision(4))}
+            {this.props.listItem("Garlic Black Pepper with Thai Fish Sauce"," ", 13.80.toPrecision(4))}
+            {this.props.listItem("Thai Green Curry with Coconut Milk"," ", 14.60.toPrecision(4))}
+            {this.props.listItem("Malaysian Red Curry with Coconut Milk"," ", 14.60.toPrecision(4))}
           </tbody>
         </table>
 

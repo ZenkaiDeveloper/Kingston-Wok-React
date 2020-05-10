@@ -42,7 +42,7 @@ class HomePageInfo extends Component{
               <div className="specialties-info-wrapper">
               <div className="one">
                 <h1 className="menu-intro">Chinese Lunch And Dinner Combos</h1>
-                <p className="price">Starting at $5.75</p>
+                <p className="price">Starting at $6.25</p>
                 <p>Lunches combos come with entree and rice.</p>
                 <Link to="/menu/combinations" className="menu-btn">See All Combos</Link>
               </div>
@@ -51,7 +51,7 @@ class HomePageInfo extends Component{
               </div>
               <div className="two">
                 <h1 className="menu-intro">Chef Specials</h1>
-                <p className="price">Starting at $11.50</p>
+                <p className="price">Starting at $12.50</p>
                 <p>A variety of large stir fried dishes with veggies and a side of rice.</p>
                 <Link to="/menu/chinese" className="menu-btn">View Specials</Link>
               </div>
@@ -69,7 +69,7 @@ class HomePageInfo extends Component{
               </div>
               <div className="four">
                 <h1 className="menu-intro">South East Asian Entrees</h1>
-                <p className="price">Starting at $13.50</p>
+                <p className="price">Starting at $13.80</p>
                 <p>Entrees come with your choice of Chicken, Beef, Jumbo Shrimp or Vegetable</p>
                 <Link to="/menu/southeast" className="menu-btn">See All Entrees</Link>
               </div>

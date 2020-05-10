@@ -3,7 +3,7 @@ import '../../../styles/Categories.css'
 
 class Vegetables extends React.Component{
   pintBase = 6.95;
-  quartBase = 10.20;
+  quartBase = 10.50;
   render(){
     return(
       <div className=" category-introduction Vegetables" >
@@ -19,8 +19,8 @@ class Vegetables extends React.Component{
           <tbody>
             {this.props.listItem("Buddha's Delight(Mixed Veggies)","N/A",  this.quartBase.toPrecision(4))}
             {this.props.listItem("Broccoli with Garlic Sauce","N/A",  this.quartBase.toPrecision(4), true)}
-            {this.props.listItem("Sauteed String Beans","N/A",  (this.quartBase+.30).toPrecision(4))}
-            {this.props.listItem("Eggplant with Garlic Sauce","N/A",  (this.quartBase+.30).toPrecision(4), true)}
+            {this.props.listItem("Sauteed String Beans","N/A",  (this.quartBase+.00).toPrecision(4))}
+            {this.props.listItem("Eggplant with Garlic Sauce","N/A",  (this.quartBase+.00).toPrecision(4), true)}
             {this.props.listItem("Bean Curd Szechuan Style","N/A", this.quartBase.toPrecision(4), true)}
             {this.props.listItem("Moo Shu Vegetable","N/A", this.quartBase.toPrecision(4))}
 

@@ -49,25 +49,25 @@ const combos = () => {
           </tr>
         </thead>
         <tbody>
-          {listFoodItem(1,"Lo Mein(Chicken or Pork)", 6.00.toPrecision(3), 9.50.toPrecision(3))}
-          {listFoodItem(2,"Chow Mein(Chicken or Pork)", 6.00.toPrecision(3), 9.50.toPrecision(3))}
-          {listFoodItem(3,"Chicken With Broccoli", 6.50.toPrecision(3), 9.75.toPrecision(3))}
-          {listFoodItem(4,"Moo Goo Gai Pan", 6.50.toPrecision(3), 9.75.toPrecision(3))}
-          {listFoodItem(5,"Chicken with Hot Pepper Peanut Sauce", 6.50.toPrecision(3), 9.75.toPrecision(3), true)}
-          {listFoodItem(6,"Sweet And Sour Chicken", 6.50.toPrecision(3), 9.75.toPrecision(3))}
-          {listFoodItem(7,"Roast Pork With Mixed Vegetables", 6.50.toPrecision(3), 9.75.toPrecision(3))}
-          {listFoodItem(8,"Double Sauteed Pork", 6.50.toPrecision(3), 9.75.toPrecision(3), true)}
-          {listFoodItem(9,"Beef with Broccoli", 6.75.toPrecision(3), 10.00.toPrecision(4))}
-          {listFoodItem(10,"Pepper Steak", 6.75.toPrecision(3), 10.00.toPrecision(4))}
-          {listFoodItem(11,"Beef with Szechuan Style", 6.75.toPrecision(3), 10.00.toPrecision(4), true)}
-          {listFoodItem(12,"Hunan Beef", 6.75.toPrecision(3), 10.00.toPrecision(4), true)}
-          {listFoodItem(13,"Beef with Garlic Sauce", 6.75.toPrecision(3), 10.00.toPrecision(4), true)}
-          {listFoodItem(14,"Chicken and Shrimp Combo", 6.75.toPrecision(3), 10.00.toPrecision(4))}
-          {listFoodItem(15,"Shrimp With Lobster Sauce", 7.00.toPrecision(3), 10.20.toPrecision(4))}
-          {listFoodItem(16,"Shrimp With Broccoli", 7.00.toPrecision(3), 10.20.toPrecision(4))}
-          {listFoodItem(17,"Boneless Spare Ribs", 7.00.toPrecision(3), 10.20.toPrecision(4))}
-          {listFoodItem(18,"General Tso's Chicken", 7.00.toPrecision(3), 10.20.toPrecision(4), true)}
-          {listFoodItem(19,"Sesame Chicken", 7.00.toPrecision(3), 10.20.toPrecision(4))}
+          {listFoodItem(1,"Lo Mein(Chicken or Pork)", 6.25.toPrecision(3), 9.75.toPrecision(3))}
+          {listFoodItem(2,"Chow Mein(Chicken or Pork)", 6.25.toPrecision(3), 9.75.toPrecision(3))}
+          {listFoodItem(3,"Chicken With Broccoli", 6.75.toPrecision(3), 10.00.toPrecision(4))}
+          {listFoodItem(4,"Moo Goo Gai Pan", 6.75.toPrecision(3), 10.00.toPrecision(4))}
+          {listFoodItem(5,"Chicken with Hot Pepper Peanut Sauce", 6.75.toPrecision(3), 10.00.toPrecision(4), true)}
+          {listFoodItem(6,"Sweet And Sour Chicken", 6.75.toPrecision(3), 10.00.toPrecision(4))}
+          {listFoodItem(7,"Roast Pork With Mixed Vegetables", 6.75.toPrecision(3), 10.00.toPrecision(4))}
+          {listFoodItem(8,"Double Sauteed Pork", 6.75.toPrecision(3), 10.00.toPrecision(4), true)}
+          {listFoodItem(9,"Beef with Broccoli", 6.95.toPrecision(3), 10.25.toPrecision(4))}
+          {listFoodItem(10,"Pepper Steak", 6.95.toPrecision(3), 10.25.toPrecision(4))}
+          {listFoodItem(11,"Beef with Szechuan Style", 6.95.toPrecision(3), 10.25.toPrecision(4), true)}
+          {listFoodItem(12,"Hunan Beef", 6.95.toPrecision(3), 10.25.toPrecision(4), true)}
+          {listFoodItem(13,"Beef with Garlic Sauce", 6.95.toPrecision(3), 10.25.toPrecision(4), true)}
+          {listFoodItem(14,"Chicken and Shrimp Combo", 6.95.toPrecision(3), 10.25.toPrecision(4))}
+          {listFoodItem(15,"Shrimp With Lobster Sauce", 7.25.toPrecision(3), 10.45.toPrecision(4))}
+          {listFoodItem(16,"Shrimp With Broccoli", 7.25.toPrecision(3), 10.45.toPrecision(4))}
+          {listFoodItem(17,"Boneless Spare Ribs", 7.25.toPrecision(3), 10.45.toPrecision(4))}
+          {listFoodItem(18,"General Tso's Chicken", 7.25.toPrecision(3), 10.45.toPrecision(4), true)}
+          {listFoodItem(19,"Sesame Chicken", 7.25.toPrecision(3), 10.45.toPrecision(4))}
 
         </tbody>
       </table>

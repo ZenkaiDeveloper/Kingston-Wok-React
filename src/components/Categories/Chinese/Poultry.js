@@ -2,8 +2,8 @@ import React from 'react';
 import '../../../styles/Categories.css'
 
 class Poultry extends React.Component{
-  pintBase = 7.75;
-  quartBase = 11.20;
+  pintBase = 8.00;
+  quartBase = 11.45;
   render(){
     return(
       <div className=" category-introduction Poultry" >

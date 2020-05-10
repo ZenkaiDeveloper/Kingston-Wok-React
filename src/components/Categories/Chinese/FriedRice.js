@@ -2,8 +2,8 @@ import React from 'react';
 import '../../../styles/Categories.css'
 
 class FriedRice extends React.Component{
-  basePint = 5.50;
-  baseQuart = 7.75;
+  basePint = 5.70;
+  baseQuart = 7.95;
   render(){
     return(
       <div className=" category-introduction FriedRice" >
@@ -20,9 +20,9 @@ class FriedRice extends React.Component{
             {this.props.listRice("Chicken", this.basePint.toPrecision(3), this.baseQuart.toPrecision(3))}
             {this.props.listRice("Pork", this.basePint.toPrecision(3), this.baseQuart.toPrecision(3))}
             {this.props.listRice("Vegetable", this.basePint.toPrecision(3), this.baseQuart.toPrecision(3))}
-            {this.props.listRice("Beef", (this.basePint+.25).toPrecision(3), (this.baseQuart+.25).toPrecision(3))}
-            {this.props.listRice("Shrimp", (this.basePint+.70).toPrecision(3), (this.baseQuart+.45).toPrecision(3))}
-            {this.props.listRice("Mixed", (this.basePint+.75).toPrecision(3), (this.baseQuart+.75).toPrecision(3))}
+            {this.props.listRice("Beef", (this.basePint+.30).toPrecision(3), (this.baseQuart+.30).toPrecision(3))}
+            {this.props.listRice("Shrimp", (this.basePint+.75).toPrecision(3), (this.baseQuart+.50).toPrecision(3))}
+            {this.props.listRice("Mixed", (this.basePint+.75).toPrecision(3), (this.baseQuart+.80).toPrecision(3))}
 
           </tbody>
         </table>

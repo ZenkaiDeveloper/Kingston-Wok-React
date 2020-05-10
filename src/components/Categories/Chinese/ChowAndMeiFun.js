@@ -2,7 +2,7 @@ import React from 'react';
 import '../../../styles/Categories.css'
 
 class ChowAndMeiFun extends React.Component{
-  base = 10.20;
+  base = 10.45;
   render(){
     return(
       <div className="category-introduction ChowAndMeiFun" >
