@@ -2,8 +2,8 @@ import React from 'react';
 import '../../../styles/Categories.css'
 
 class Pork extends React.Component{
-  pintBase = 7.95.toPrecision(3);
-  quartBase = 11.45;
+  pintBase = 8.50.toPrecision(3);
+  quartBase = 11.85;
   render(){
     return(
       <div className=" category-introduction Pork" >
@@ -21,7 +21,7 @@ class Pork extends React.Component{
             {this.props.listItem("Pork with Garlic Sauce",this.pintBase,  this.quartBase.toPrecision(4), true)}
             {this.props.listItem("Double Sauteed Pork",this.pintBase,  this.quartBase.toPrecision(4), true)}
             {this.props.listItem("Roast Pork with Mixed Vegetables",this.pintBase,  this.quartBase.toPrecision(4))}
-            {this.props.listItem("Moo Shu Pork(w. 4 Pancakes)",this.pintBase,  this.quartBase.toPrecision(4))}
+            {this.props.listItem("Moo Shu Pork(w. 4 Pancakes)","--",  this.quartBase.toPrecision(4))}
             {this.props.listItem("Ginger Pork with String Beans",this.pintBase,  (this.quartBase + .30).toPrecision(4))}
           </tbody>
         </table>

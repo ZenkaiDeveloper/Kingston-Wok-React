@@ -16,14 +16,14 @@ class Nigiri extends React.Component{
             </tr>
           </thead>
           <tbody>
-            {this.props.listItem("Ebi(Shrimp)"," ", 4.60.toPrecision(3))}
-            {this.props.listItem("Hokigai(Red Clam)"," ", 4.35)}
-            {this.props.listItem("Inari(Sweet Bean Curd)"," ", 3.60.toPrecision(3))}
-            {this.props.listItem("Kani(Crab)"," ", 4.35)}
-            {this.props.listItem("Smoked Salmon"," ", 4.60.toPrecision(3))}
-            {this.props.listItem("Tako(Octopus)"," ", 4.85)}
-            {this.props.listItem("Tomago(Omelet)"," ", 3.85)}
-            {this.props.listItem("Unagi(Smoked Eel)"," ", 5.05)}
+            {this.props.listItem("Ebi(Shrimp)"," ", 4.75.toPrecision(3))}
+            {this.props.listItem("Hokigai(Red Clam)"," ", 4.50.toPrecision(3))}
+            {this.props.listItem("Inari(Sweet Bean Curd)"," ", 3.75.toPrecision(3))}
+            {this.props.listItem("Kani(Crab)"," ", 4.50.toPrecision(3))}
+            {this.props.listItem("Smoked Salmon"," ", 4.75.toPrecision(3))}
+            {this.props.listItem("Tako(Octopus)"," ", 5.00.toPrecision(3))}
+            {this.props.listItem("Tomago(Omelet)"," ", 4.00.toPrecision(3))}
+            {this.props.listItem("Unagi(Smoked Eel)"," ", 5.20.toPrecision(3))}
 
           </tbody>
         </table>
@@ -38,14 +38,14 @@ class Nigiri extends React.Component{
             </tr>
           </thead>
           <tbody>
-            {this.props.listItem("Amaebi(Sweet Shrimp)"," ", 4.10.toPrecision(3))}
-            {this.props.listItem("Hamachi(Yellow Tail)"," ", 5.05)}
-            {this.props.listItem("Ikura(Salmon Egg)"," ", 5.05.toPrecision(3))}
-            {this.props.listItem("Maguro(Tuna)"," ", 5.05)}
-            {this.props.listItem("Sake(Salmon)"," ", 5.05)}
-            {this.props.listItem("Saba(Mackerel)"," ", 4.35)}
-            {this.props.listItem("Tai(Red Snapper)"," ", 4.35)}
-            {this.props.listItem("Tobiko(Flying Fish Egg)"," ", 4.35)}
+            {this.props.listItem("Amaebi(Sweet Shrimp)"," ", 4.25.toPrecision(3))}
+            {this.props.listItem("Hamachi(Yellow Tail)"," ", 5.25)}
+            {this.props.listItem("Ikura(Salmon Egg)"," ", 5.25.toPrecision(3))}
+            {this.props.listItem("Maguro(Tuna)"," ", 5.25)}
+            {this.props.listItem("Sake(Salmon)"," ", 5.25)}
+            {this.props.listItem("Saba(Mackerel)"," ", 4.55)}
+            {this.props.listItem("Tai(Red Snapper)"," ", 4.55)}
+            {this.props.listItem("Tobiko(Flying Fish Egg)"," ", 4.55)}
 
           </tbody>
         </table>

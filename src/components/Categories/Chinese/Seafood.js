@@ -2,8 +2,8 @@ import React from 'react';
 import '../../../styles/Categories.css'
 
 class Seafood extends React.Component{
-  pintBase = 8.75;
-  quartBase = 12.75;
+  pintBase = 9.15;
+  quartBase = 13.15;
   render(){
     return(
       <div className=" category-introduction Seafood" >
@@ -23,8 +23,8 @@ class Seafood extends React.Component{
             {this.props.listItem("Shrimp with Garlic Sauce",this.pintBase.toPrecision(3),  this.quartBase.toPrecision(4), true)}
             {this.props.listItem("Shrimp with Hot Pepper Sauce and Peanuts",this.pintBase.toPrecision(3),  this.quartBase.toPrecision(4), true)}
             {this.props.listItem("Shrimp with Cashew Nuts",this.pintBase.toPrecision(3),  this.quartBase.toPrecision(4))}
-            {this.props.listItem("Scallops with Garlic Sauce","N/A",  (this.quartBase+3.70).toPrecision(4), true)}
-            {this.props.listItem("Scallops with Broccoli","N/A",  (this.quartBase+3.70).toPrecision(4))}
+            {this.props.listItem("Scallops with Garlic Sauce","N/A",  (this.quartBase+3.60).toPrecision(4), true)}
+            {this.props.listItem("Scallops with Broccoli","N/A",  (this.quartBase+3.60).toPrecision(4))}
           </tbody>
         </table>
       </div>

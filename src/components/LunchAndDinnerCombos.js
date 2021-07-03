@@ -22,7 +22,13 @@ const combos = () => {
         <td className="size">{qtPrice}</td>
       </tr>
     )
-  }
+  };
+
+  const priceToPre = (price) => {
+    let precision = price.toString().replace('.','').length;
+    return price.toPrecision(precision);
+  };
+
   return(
     <div className="combos">
       <Header/>
@@ -49,25 +55,25 @@ const combos = () => {
           </tr>
         </thead>
         <tbody>
-          {listFoodItem(1,"Lo Mein(Chicken or Pork)", 6.25.toPrecision(3), 9.75.toPrecision(3))}
-          {listFoodItem(2,"Chow Mein(Chicken or Pork)", 6.25.toPrecision(3), 9.75.toPrecision(3))}
-          {listFoodItem(3,"Chicken With Broccoli", 6.75.toPrecision(3), 10.00.toPrecision(4))}
-          {listFoodItem(4,"Moo Goo Gai Pan", 6.75.toPrecision(3), 10.00.toPrecision(4))}
-          {listFoodItem(5,"Chicken with Hot Pepper Peanut Sauce", 6.75.toPrecision(3), 10.00.toPrecision(4), true)}
-          {listFoodItem(6,"Sweet And Sour Chicken", 6.75.toPrecision(3), 10.00.toPrecision(4))}
-          {listFoodItem(7,"Roast Pork With Mixed Vegetables", 6.75.toPrecision(3), 10.00.toPrecision(4))}
-          {listFoodItem(8,"Double Sauteed Pork", 6.75.toPrecision(3), 10.00.toPrecision(4), true)}
-          {listFoodItem(9,"Beef with Broccoli", 6.95.toPrecision(3), 10.25.toPrecision(4))}
-          {listFoodItem(10,"Pepper Steak", 6.95.toPrecision(3), 10.25.toPrecision(4))}
-          {listFoodItem(11,"Beef with Szechuan Style", 6.95.toPrecision(3), 10.25.toPrecision(4), true)}
-          {listFoodItem(12,"Hunan Beef", 6.95.toPrecision(3), 10.25.toPrecision(4), true)}
-          {listFoodItem(13,"Beef with Garlic Sauce", 6.95.toPrecision(3), 10.25.toPrecision(4), true)}
-          {listFoodItem(14,"Chicken and Shrimp Combo", 6.95.toPrecision(3), 10.25.toPrecision(4))}
-          {listFoodItem(15,"Shrimp With Lobster Sauce", 7.25.toPrecision(3), 10.45.toPrecision(4))}
-          {listFoodItem(16,"Shrimp With Broccoli", 7.25.toPrecision(3), 10.45.toPrecision(4))}
-          {listFoodItem(17,"Boneless Spare Ribs", 7.25.toPrecision(3), 10.45.toPrecision(4))}
-          {listFoodItem(18,"General Tso's Chicken", 7.25.toPrecision(3), 10.45.toPrecision(4), true)}
-          {listFoodItem(19,"Sesame Chicken", 7.25.toPrecision(3), 10.45.toPrecision(4))}
+          {listFoodItem(1,"Lo Mein(Chicken or Pork)", priceToPre(7.75), priceToPre(10.55))}
+          {listFoodItem(2,"Chow Mein(Chicken or Pork)", priceToPre(7.75), priceToPre(10.55))}
+          {listFoodItem(3,"Chicken With Broccoli", priceToPre(7.75), priceToPre(10.55))}
+          {listFoodItem(4,"Moo Goo Gai Pan", priceToPre(7.75), priceToPre(10.55))}
+          {listFoodItem(5,"Chicken with Hot Pepper Peanut Sauce", priceToPre(7.75), priceToPre(10.55), true)}
+          {listFoodItem(6,"Sweet And Sour Chicken", priceToPre(7.75), priceToPre(10.55))}
+          {listFoodItem(7,"Roast Pork With Mixed Vegetables", priceToPre(7.75), priceToPre(10.55))}
+          {listFoodItem(8,"Double Sauteed Pork", priceToPre(7.75), priceToPre(10.55), true)}
+          {listFoodItem(9,"Beef with Broccoli", priceToPre(7.95), priceToPre(10.95))}
+          {listFoodItem(10,"Pepper Steak", priceToPre(7.95), priceToPre(10.95))}
+          {listFoodItem(11,"Beef with Szechuan Style", priceToPre(7.95), priceToPre(10.95), true)}
+          {listFoodItem(12,"Hunan Beef", priceToPre(7.95), priceToPre(10.95), true)}
+          {listFoodItem(13,"Beef with Garlic Sauce", priceToPre(7.95), priceToPre(10.95), true)}
+          {listFoodItem(14,"Chicken and Shrimp Combo", priceToPre(7.95), priceToPre(10.95))}
+          {listFoodItem(15,"Shrimp With Lobster Sauce", priceToPre(7.95), priceToPre(10.95))}
+          {listFoodItem(16,"Shrimp With Broccoli", priceToPre(7.95), priceToPre(10.95))}
+          {listFoodItem(17,"Boneless Spare Ribs", priceToPre(7.95), priceToPre(10.95))}
+          {listFoodItem(18,"General Tso's Chicken", priceToPre(7.95), priceToPre(10.95), true)}
+          {listFoodItem(19,"Sesame Chicken", priceToPre(7.95), priceToPre(10.95))}
 
         </tbody>
       </table>

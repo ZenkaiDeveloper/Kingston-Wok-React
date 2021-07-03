@@ -3,7 +3,7 @@ import '../../../styles/Categories.css'
 
 class Vegetables extends React.Component{
   pintBase = 6.95;
-  quartBase = 10.50;
+  quartBase = 10.95;
   render(){
     return(
       <div className=" category-introduction Vegetables" >

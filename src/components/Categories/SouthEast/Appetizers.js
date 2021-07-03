@@ -36,7 +36,7 @@ class Appetizers extends React.Component{
               <td className="chef-description" colSpan="3"><small>Served with Thai green chili sauce.</small></td>
             </tr>
 
-            {this.props.listItem("Thai Style House Salad"," ", 6.15)}
+            {this.props.listItem("Thai Style House Salad"," ", 6.35)}
             <tr>
               <td className="chef-description" colSpan="3"><small>Glass noodles, onion, carrot, celery, tomatoes, mango, cucumber, green and red peppers with crushed peanut spicy Thai herbs, lemongrass and lime juice dressing.</small></td>
             </tr>

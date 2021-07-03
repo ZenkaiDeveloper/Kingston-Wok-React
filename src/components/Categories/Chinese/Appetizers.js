@@ -16,17 +16,18 @@ class Appetizers extends React.Component{
             </tr>
           </thead>
           <tbody>
-            {this.props.listApp("Bar-B-Q Spare Ribs", "half: 8.75", "full: 13.95")}
-            {this.props.listApp("Boneless Ribs", "Sm: 7.55", "Lg: 11.55")}
-            {this.props.listApp("Egg Roll (1)", "1.95")}
-            {this.props.listApp("Spring Roll (1)", "1.75")}
-            {this.props.listApp("Pork or Vegtable Dumplings(6)(Steamed or Pan Fried)", "6.95")}
-            {this.props.listApp("Steamed Chicken Dumplings in Hot Chili Sauce(6)", "6.95")}
-            {this.props.listApp("Fried Wontons(15)", "5.95")}
-            {this.props.listApp("Chicken Wings(8)", "7.15")}
-            {this.props.listApp("Cold Noodle with Sesame Sauce", "5.15")}
-            {this.props.listApp("Crab Meat Rangoons(4)", "4.50")}
-
+            {this.props.listApp("Bar-B-Q Spare Ribs", "Half: 9.25", "Full: 14.75")}
+            {this.props.listApp("Boneless Ribs", "Sm: 7.95", "Lg: 12.35")}
+            {this.props.listApp("Egg Roll (1)", "2.05")}
+            {this.props.listApp("Spring Roll (1)", "1.85")}
+            {this.props.listApp("Shrimp Egg Roll (1)", "2.10")}
+            {this.props.listApp("Pork or Vegtable Dumplings(6)(Steamed or Pan Fried)", "7.15")}
+            {this.props.listApp("Steamed Chicken Dumplings in Hot Chili Sauce(6)", "7.15")}
+            {this.props.listApp("Fried Wontons(15)", "6.15")}
+            {this.props.listApp("Chicken Wings(8)", "7.35")}
+            {this.props.listApp("Cold Noodle with Sesame Sauce", "5.35")}
+            {this.props.listApp("Crab Meat Rangoons(4)", "4.70")}
+            {this.props.listApp("Steam or Pan Fried Chinatown Dumplings", "6.95")}
           </tbody>
         </table>
       </div>

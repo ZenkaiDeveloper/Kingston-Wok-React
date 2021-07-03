@@ -2,8 +2,8 @@ import React from 'react';
 import '../../../styles/Categories.css'
 
 class Poultry extends React.Component{
-  pintBase = 8.00;
-  quartBase = 11.45;
+  pintBase = 8.50;
+  quartBase = 11.85;
   render(){
     return(
       <div className=" category-introduction Poultry" >
@@ -26,10 +26,10 @@ class Poultry extends React.Component{
             {this.props.listItem("Chicken with Garlic Sauce",this.pintBase.toPrecision(3),  this.quartBase.toPrecision(4), true)}
             {this.props.listItem("Chicken with Black Bean Sauce",this.pintBase.toPrecision(3),  this.quartBase.toPrecision(4))}
             {this.props.listItem("Sweet and Sour Chicken",this.pintBase.toPrecision(3),  this.quartBase.toPrecision(4))}
-            {this.props.listItem("Chicken and Shrimp Combination",this.pintBase.toPrecision(3),  (this.quartBase+.3).toPrecision(4))}
-            {this.props.listItem("General Tso's Chicken","N/A",  (this.quartBase+1).toPrecision(4), true)}
-            {this.props.listItem("Sesame Chicken","N/A",  (this.quartBase+1).toPrecision(4))}
-            {this.props.listItem("Chicken with Eggplant","N/A",  (this.quartBase+.3).toPrecision(4))}
+            {this.props.listItem("Chicken and Shrimp Combination",this.pintBase.toPrecision(3),  (this.quartBase).toPrecision(4))}
+            {this.props.listItem("General Tso's Chicken","N/A",  (this.quartBase+.90).toPrecision(4), true)}
+            {this.props.listItem("Sesame Chicken","N/A",  (this.quartBase+.90).toPrecision(4))}
+            {this.props.listItem("Chicken with Eggplant","N/A",  (this.quartBase).toPrecision(4))}
           </tbody>
         </table>
       </div>
